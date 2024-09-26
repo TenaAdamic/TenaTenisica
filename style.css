@@ -1313,7 +1313,7 @@ h5 {
 .click-deck-button {
     font-size: 1rem;
     font-weight: 600;
-    color: blueviolet;
+    color: blue;
     text-decoration: none;
     border: none;
     margin-top: 64px;
@@ -2123,7 +2123,7 @@ h5 {
 }
 
 .shuffle {
-    color: blueviolet;
+    color: blue;
     text-decoration: underline;
     text-transform: uppercase;
     cursor: pointer;

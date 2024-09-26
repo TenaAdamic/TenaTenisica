@@ -122,9 +122,9 @@ document.addEventListener('DOMContentLoaded', () => {
         
         spreadDeckBack.classList.add('move-right');
 
-        // Loop through the cards in 'spread-container' and apply transformations
+        // Loop 
         backCardsSpread.forEach((card, i) => {
-            if (card.id !== "20") { // Exclude the card with id="20"
+            if (card.id !== "20") { // Sve osim karte s id="20"
                 const distance = baseDistance - (i * decrement);
                 card.style.transform = `translateX(${distance}px)`;
                 card.style.zIndex = zIndex--; // Decrease z-index for each card
@@ -142,16 +142,16 @@ document.addEventListener('DOMContentLoaded', () => {
     customAlert.style.display = 'block';
     }
 
-    // Function to hide the custom alert
+    // hide 
     function hideCustomAlert() {
     const customAlert = document.getElementById('customAlert');
     customAlert.style.display = 'none';
     }
 
-    // Add an event listener to the "OK" button to hide the alert
+    // "OK" button 
     document.getElementById('alertOkButton').addEventListener('click', hideCustomAlert);
 
-    // Handle the card click event
+    // kada kliknem back card (event)
     backCardsSpread.forEach(card => {
         card.addEventListener('click', function () {
             if (!card.classList.contains('clicked')) {
@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 card.classList.add('clicked');
               
     
-                // Update the prompt message
+                // prompts
 
                 if (selectedCount === 5) {
                     displayPrompt.innerHTML = `Odaberi još jednu kartu`;
