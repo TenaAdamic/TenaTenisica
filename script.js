@@ -187,13 +187,13 @@ document.addEventListener('DOMContentLoaded', () => {
     //     }
     // });
 
-    // Handle the spreadDeckBack click event
+    // spreadDeckBack click event
     spreadDeckBack.addEventListener('click', function () {
         if (!spreadDeckBack.classList.contains('clicked')) {
             selectedCount++;
             spreadDeckBack.classList.add('clicked');
 
-            // Update the prompt message
+            
             if (selectedCount === 5) {
                 displayPrompt.innerHTML = `Odaberi još jednu kartu`;
             } else if (selectedCount === 1) {
@@ -209,13 +209,13 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             
 
-            // Make the prompt visible
+            
             displayPrompt.style.display = 'flex';
         }
     });
 
     function displaySelectedCards() {
-        // Hide the deck and the instruction paragraph
+        // hide some elements that don't need to be visible
         document.querySelector('.deck-and-spread-container').classList.add('hidden');
         document.querySelector('.instructions').classList.add('hidden');
         document.querySelector('.past-present-future').style.display = 'flex';
@@ -232,7 +232,7 @@ document.addEventListener('DOMContentLoaded', () => {
        
         document.querySelector('.show-container').style.display = 'flex';
         
-        // Scroll
+        
         window.scrollTo({
             top: document.querySelector('.push-down').offsetTop,
             behavior: 'smooth'
@@ -240,7 +240,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     
 
-    // Array of messages for each card
+    // array s porukama
     const messages = [
         "Kako ti vidiš sebe?",
         "Što kaže tvoja podsvjest?",
@@ -250,16 +250,16 @@ document.addEventListener('DOMContentLoaded', () => {
         "Koja je poruka Tarota?"
     ];
 
-    // Add the event listener for the prompt separately
+    // event listener na "preuzmi čitanje"
     displayPrompt.addEventListener('click', function () {
         if (displayPrompt.innerHTML.includes('Preuzmi čitanje')) {
-            // Hide all "facing-card" divs initially
+            
             facingCards.forEach(card => {
                 card.style.display = 'none';
-                // Clear any existing content in the h3 element
+                
                 const h3 = card.querySelector('h3');
                 if (h3) {
-                    h3.innerHTML = ''; // Clear existing h3 content
+                    h3.innerHTML = ''; 
                 }
             });
 
@@ -277,17 +277,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 displaySelectedCards();
             }
 
-            // Display the selected cards with specific h3 content
+            
             selectedCards.forEach((card, index) => {
                 card.style.display = 'flex';
-                // Update the h3 element's innerHTML with the corresponding message
+                // update the h3 element's innerHTML with the corresponding message
                 const h3 = card.querySelector('h3');
                 if (h3) {
                     h3.innerHTML = messages[index];
                 }
             });
 
-            // Show the container
+            
             showContainer.style.display = 'flex';
         }
     });
