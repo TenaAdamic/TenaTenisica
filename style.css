@@ -1645,10 +1645,14 @@ h5 {
     margin-left: -3px;
   }
 
+  .click-deck-div {
+    margin-left: -2.7rem;
+  }
+
   .click-deck-button {
     font-size: 0.7rem;
     margin-top: 150px;
-    margin-left: -5.7rem;
+    margin-left: -4.7rem;
   }
 
   .rest-of-deck {
@@ -1694,13 +1698,13 @@ h5 {
   }
 
   .click-deck-div {
-    left: 85%;
+    margin-left: 1rem;
   }
 
   .click-deck-button {
     font-size: 0.7rem;
     margin-top: 150px;
-    margin-left: -4.7rem;
+    /* margin-left: -4.7rem; */
   }
 
   .rest-of-deck {
