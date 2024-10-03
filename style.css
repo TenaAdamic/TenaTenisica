@@ -2720,6 +2720,7 @@ textarea {
   text-decoration: none;
   border: none;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .faq-button:hover {
