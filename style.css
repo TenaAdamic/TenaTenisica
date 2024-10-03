@@ -10,7 +10,8 @@ body::after {
   height: 0;
   overflow: hidden;
   z-index: -1;
-  content: url(./images/Hibiscus.png) url(./images/Classic.png) url(./images/Rozo_maksimir.png);
+  content: url(./images/Hibiscus.png) url(./images/Classic.png)
+    url(./images/Rozo_maksimir.png);
 }
 
 *,
@@ -368,6 +369,20 @@ h5 {
   align-items: center;
   gap: 16px;
   width: 4%;
+}
+
+.legal {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 0.4rem;
+  height: 5vh;
+  color: var(--main-color);
+  background-color: rgba(240, 240, 240, 1);
+}
+
+.legal a {
+  font-size: 0.7rem;
 }
 
 @media (max-width: 460px) {
@@ -1273,9 +1288,20 @@ h5 {
   /* border-radius: 16px; */
 }
 
-.instructions p {
+@keyframes slideInRight {
+  from {
+    transform: translateX(200px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.instructions {
   color: var(--color-font);
   font-size: 20px;
+  animation: slideInRight 1s ease-in 0s 1 normal both;
 }
 
 .click-deck-div {
