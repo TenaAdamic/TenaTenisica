@@ -1861,7 +1861,7 @@ h5 {
   background-image: url(./images/Hibiscus.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   margin: 1rem auto;
   padding: 0.25rem;
   border: none;
@@ -1882,7 +1882,7 @@ h5 {
   background-image: url(./images/Classic.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   margin: 1rem auto;
   padding: 0.25rem;
   border: none;
@@ -1915,7 +1915,7 @@ h5 {
   background-image: url(./images/Rozo_maksimir.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   margin: 1rem auto;
   padding: 0.25rem;
   border: none;
