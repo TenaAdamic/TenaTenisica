@@ -253,7 +253,7 @@ document.addEventListener("DOMContentLoaded", () => {
       } else if (selectedCount === totalCards) {
         displayPrompt.innerHTML =
           userLanguage === "en"
-            ? 'Download reading <i class="fas fa-arrow-right"></i>'
+            ? 'Find your reading <i class="fas fa-arrow-right"></i>'
             : 'Preuzmi čitanje <i class="fas fa-arrow-right"></i>';
       } else {
         // Example of when more than 6 cards are selected
@@ -329,7 +329,7 @@ document.addEventListener("DOMContentLoaded", () => {
   displayPrompt.addEventListener("click", function () {
     if (
       displayPrompt.innerHTML.includes("Preuzmi čitanje") ||
-      displayPrompt.innerHTML.includes("Download reading")
+      displayPrompt.innerHTML.includes("Find your reading")
     ) {
       facingCards.forEach((card) => {
         card.style.display = "none";
