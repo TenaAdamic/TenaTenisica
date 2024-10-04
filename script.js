@@ -185,7 +185,7 @@ document.addEventListener("DOMContentLoaded", () => {
         } else if (selectedCount === totalCards) {
           displayPrompt.innerHTML =
             userLanguage === "en"
-              ? 'Download reading <i class="fas fa-arrow-right"></i>'
+              ? 'Find your reading <i class="fas fa-arrow-right"></i>'
               : 'Preuzmi čitanje <i class="fas fa-arrow-right"></i>';
         } else {
           // Example of when more than 6 cards are selected
