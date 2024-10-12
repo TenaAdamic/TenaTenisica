@@ -738,8 +738,8 @@ h5 {
   top: 0;
   left: 0;
   z-index: 150;
-  border-radius: 8px;
-  height: 250px;
+  border-radius: 0.5rem;
+  height: 15.625rem;
   cursor: pointer;
   border: 1px solid #eee;
   transition: transform 0.5s ease;
@@ -747,19 +747,19 @@ h5 {
 }
 
 #spread-deck-back.move-right {
-  transform: translateX(1050px);
+  transform: translateX(65.625rem);
 }
 
 #spread-deck-back:hover {
-  left: 8px;
+  left: 0.5rem;
 }
 
 .back-cards-spread {
   position: absolute;
   top: 0;
   left: 0;
-  border-radius: 8px;
-  height: 250px;
+  border-radius: 0.5rem;
+  height: 15.625rem;
   cursor: pointer;
   border: 1px solid #eee;
   transition: transform 0.5s ease, z-index 0.5s ease;
@@ -767,12 +767,12 @@ h5 {
 }
 
 .back-cards-spread:hover {
-  left: 8px;
+  left: 0.5rem;
 }
 
 .back-cards-spread.clicked,
 #spread-deck-back.clicked {
-  top: -8px;
+  top: -0.5rem;
   transition: top 0.3s ease;
   border: 2px solid var(--main-color);
 }
@@ -839,25 +839,25 @@ h5 {
 
 @media (max-width: 1200px) {
   .deck-container.margin-24 {
-    margin-left: 24px;
+    margin-left: 1.5rem;
   }
 }
 
 @media (max-width: 1280px) and (min-width: 1049px) {
   .spread-container {
     transform: scale(0.85);
-    margin: 32px auto -32px;
+    margin: 2rem auto -2rem;
   }
 }
 
 @media (max-width: 1048px) and (min-width: 930px) {
   .spread-container {
-    margin: 32px auto -32px;
+    margin: 2rem auto -2rem;
     transform: scale(0.75);
   }
 
   .cta-button-home {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
     /* padding: 8px 16px; */
   }
@@ -866,25 +866,25 @@ h5 {
 @media (max-width: 929px) and (min-width: 870px) {
   .spread-container {
     transform: scale(0.7);
-    margin: 32px auto -32px;
+    margin: 2rem auto -2rem;
   }
 
   .cta-button-home {
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 400;
     /* padding: 8px 16px; */
-    margin-top: 128px;
+    margin-top: 8rem;
   }
 }
 
 @media (max-width: 869px) and (min-width: 820px) {
   .spread-container {
     transform: scale(0.65);
-    margin: 32px auto -32px;
+    margin: 2rem auto -2rem;
   }
 
   .cta-button-home {
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 400;
     /* padding: 6px 16px; */
     letter-spacing: 1px;
@@ -898,11 +898,11 @@ h5 {
 @media (max-width: 819px) and (min-width: 780px) {
   .spread-container {
     transform: scale(0.6);
-    margin: 32px auto -32px;
+    margin: 2rem auto -2rem;
   }
 
   .cta-button-home {
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 400;
     /* padding: 6px 16px; */
     letter-spacing: 1px;
@@ -916,11 +916,11 @@ h5 {
 @media (max-width: 779px) and (min-width: 700px) {
   .spread-container {
     transform: scale(0.55);
-    margin: 32px auto -32px;
+    margin: 2rem auto -2rem;
   }
 
   .cta-button-home {
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 400;
     /* padding: 6px 16px; */
     letter-spacing: 1px;
@@ -934,11 +934,11 @@ h5 {
 @media (max-width: 699px) and (min-width: 640px) {
   .spread-container {
     transform: scale(0.5);
-    margin: 32px auto -32px;
+    margin: 2rem auto -2rem;
   }
 
   .cta-button-home {
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 400;
     /* padding: 6px 16px; */
     letter-spacing: 1px;
@@ -952,11 +952,11 @@ h5 {
 @media (max-width: 639px) and (min-width: 580px) {
   .spread-container {
     transform: scale(0.45);
-    margin: 32px auto -32px;
+    margin: 2rem auto -2rem;
   }
 
   .cta-button-home {
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 400;
     /* padding: 6px 16px; */
     letter-spacing: 1px;
@@ -970,11 +970,11 @@ h5 {
 @media (max-width: 579px) and (min-width: 510px) {
   .spread-container {
     transform: scale(0.4);
-    margin: 32px auto -32px;
+    margin: 2rem auto -2rem;
   }
 
   .cta-button-home {
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 400;
     /* padding: 6px 16px; */
     letter-spacing: 1px;
@@ -988,11 +988,11 @@ h5 {
 @media (max-width: 509px) and (min-width: 450px) {
   .spread-container {
     transform: scale(0.35);
-    margin: 32px auto -32px;
+    margin: 2rem auto -2rem;
   }
 
   .cta-button-home {
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 400;
     /* padding: 6px 16px; */
     letter-spacing: 1px;
@@ -1006,11 +1006,11 @@ h5 {
 @media (max-width: 449px) and (min-width: 390px) {
   .spread-container {
     transform: scale(0.3);
-    margin: 32px auto -32px;
+    margin: 2rem auto -2rem;
   }
 
   .cta-button-home {
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 400;
     /* padding: 6px 16px; */
     letter-spacing: 1px;
@@ -1024,11 +1024,11 @@ h5 {
 @media (max-width: 389px) and (min-width: 335px) {
   .spread-container {
     transform: scale(0.25);
-    margin: 32px auto -32px;
+    margin: 2rem auto -2rem;
   }
 
   .cta-button-home {
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 400;
     /* padding: 6px 16px; */
     letter-spacing: 1px;
@@ -1042,11 +1042,11 @@ h5 {
 @media (max-width: 334px) and (min-width: 319px) {
   .spread-container {
     transform: scale(0.24);
-    margin: 32px auto -32px;
+    margin: 2rem auto -2rem;
   }
 
   .cta-button-home {
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 400;
     /* padding: 6px 16px; */
     letter-spacing: 1px;
@@ -1059,14 +1059,14 @@ h5 {
 .display-prompt {
   /* opacity: 0;   */
   transition: opacity 0.3s ease;
-  margin: 175px auto 64px;
+  margin: 10.938rem auto 4rem;
   text-align: center;
   color: blueviolet;
-  width: 234px;
-  height: 48px;
+  width: 14.625rem;
+  height: 3rem;
   border: 2px solid var(--secondary-color);
-  border-radius: 8px;
-  font-size: 18px;
+  border-radius: 0.5rem;
+  font-size: 1.125rem;
   display: none;
   justify-content: center;
   align-items: center;
@@ -1076,75 +1076,75 @@ h5 {
 }
 
 .display-prompt i {
-  margin-left: 8px;
+  margin-left: 0.5rem;
   color: var(--main-color);
 }
 
 @media (max-width: 799px) and (min-width: 680px) {
   .display-prompt {
-    margin: 80px auto 0;
-    width: 202px;
-    height: 48px;
-    font-size: 16px;
+    margin: 5rem auto 0;
+    width: 12.625rem;
+    height: 3rem;
+    font-size: 1rem;
   }
 }
 
 @media (max-width: 679px) and (min-width: 570px) {
   .display-prompt {
-    margin: 80px auto 0;
-    width: 202px;
-    height: 48px;
-    font-size: 14px;
+    margin: 5rem auto 0;
+    width: 12.625rem;
+    height: 3rem;
+    font-size: 0.875rem;
   }
 }
 
 @media (max-width: 569px) and (min-width: 468px) {
   .display-prompt {
-    margin: 64px auto 0;
-    width: 186px;
-    height: 48px;
-    font-size: 14px;
+    margin: 4rem auto 0;
+    width: 11.625rem;
+    height: 3rem;
+    font-size: 0.875rem;
   }
 }
 
 @media (max-width: 467px) and (min-width: 360px) {
   .display-prompt {
-    margin: 64px auto 0;
-    width: 186px;
-    height: 40px;
-    font-size: 14px;
+    margin: 4rem auto 0;
+    width: 11.625rem;
+    height: 2.5rem;
+    font-size: 0.875rem;
   }
 }
 
 @media (max-width: 359px) and (min-width: 319px) {
   .display-prompt {
-    margin: 32px auto 0;
-    width: 176px;
-    height: 40px;
-    font-size: 14px;
+    margin: 2rem auto 0;
+    width: 11rem;
+    height: 2.5rem;
+    font-size: 0.875rem;
   }
 }
 
 .facing-card-image img {
   height: 400px;
   width: 250px;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   border: 2px solid #eee;
-  margin-bottom: 64px;
+  margin-bottom: 4rem;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 600px) {
   .facing-card-image img {
-    height: 265px;
-    width: 150px;
+    height: 16.563rem;
+    width: 9.375rem;
   }
 }
 
 @media (max-width: 460px) {
   .facing-card-image img {
-    height: 200px;
-    width: 120px;
+    height: 12.5rem;
+    width: 7.5rem;
   }
 }
 
@@ -1154,8 +1154,8 @@ h5 {
   justify-content: center;
   align-items: center;
   position: relative;
-  margin-top: 20px;
-  padding: 20px;
+  margin-top: 1.25rem;
+  padding: 1.25rem;
 }
 
 .hidden {
@@ -1166,14 +1166,14 @@ h5 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 64px;
-  margin: 32px auto;
+  gap: 4rem;
+  margin: 2rem auto;
   width: 80%;
 }
 
 @media (max-width: 630px) {
   .facing-card {
-    gap: 32px;
+    gap: 2rem;
   }
 }
 
@@ -1193,17 +1193,17 @@ h5 {
 
 @media (max-width: 700px) {
   .card-interpretation h3 {
-    font-size: 18px;
-    margin-bottom: 32px;
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
     margin-top: 0;
   }
 
   .card-interpretation h2 {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 
   .card-interpretation p {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
   .card-interpretation p {
@@ -1213,17 +1213,17 @@ h5 {
 
 @media (max-width: 530px) {
   .card-interpretation h3 {
-    font-size: 16px;
-    margin-bottom: 24px;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
     margin-top: 0;
   }
 
   .card-interpretation h2 {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .card-interpretation p {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 
   .card-interpretation p {
@@ -1233,17 +1233,17 @@ h5 {
 
 @media (max-width: 420px) {
   .card-interpretation h3 {
-    font-size: 14px;
-    margin-bottom: 20px;
+    font-size: 0.875rem;
+    margin-bottom: 1.25rem;
     margin-top: 0;
   }
 
   .card-interpretation h2 {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
   .card-interpretation p {
-    font-size: 10px;
+    font-size: 0.625rem;
   }
 
   .card-interpretation p {
@@ -1253,17 +1253,17 @@ h5 {
 
 @media (max-width: 380px) {
   .card-interpretation h3 {
-    font-size: 12px;
-    margin-bottom: 20px;
+    font-size: 0.75rem;
+    margin-bottom: 1.25rem;
     margin-top: 0;
   }
 
   .card-interpretation h2 {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 
   .card-interpretation p {
-    font-size: 10px;
+    font-size: 0.625rem;
   }
 
   .card-interpretation p {
@@ -1274,8 +1274,8 @@ h5 {
 .reading-intro {
   display: flex;
   justify-content: space-between;
-  width: 900px;
-  height: 250px;
+  width: 56.25rem;
+  height: 15.625rem;
   position: relative;
 }
 
@@ -1283,14 +1283,14 @@ h5 {
   position: absolute;
   top: 30%;
   left: 30%;
-  padding: 32px;
+  padding: 2rem;
   /* background-color: rgba(226, 220, 233, 0.01); */
   /* border-radius: 16px; */
 }
 
 @keyframes slideInRight {
   from {
-    transform: translateX(200px);
+    transform: translateX(12.5rem);
   }
 
   to {
@@ -1300,7 +1300,7 @@ h5 {
 
 .instructions {
   color: var(--color-font);
-  font-size: 20px;
+  font-size: 1.25rem;
   animation: slideInRight 1s ease-in 0s 1 normal both;
 }
 
@@ -1326,7 +1326,7 @@ h5 {
   color: blue;
   text-decoration: none;
   border: none;
-  margin-top: 64px;
+  margin-top: 4rem;
   background: transparent;
   animation: soft-blink 1.5s infinite;
 }
@@ -1337,7 +1337,7 @@ h5 {
   color: var(--main-color);
   text-decoration: none;
   border: none;
-  margin-top: 64px;
+  margin-top: 4rem;
   cursor: pointer;
   background: transparent;
 }
@@ -1359,17 +1359,17 @@ h5 {
   }
 
   .deck-back-img {
-    height: 240px;
+    height: 15rem;
   }
 
   .back-cards {
-    height: 240px;
+    height: 15rem;
   }
 
   .reading-intro {
     flex-direction: column;
-    width: 400px;
-    height: 400px;
+    width: 25rem;
+    height: 25rem;
   }
 
   .slider-button {
@@ -1380,7 +1380,7 @@ h5 {
 
   .click-deck-button {
     font-size: 1.2rem;
-    margin-top: 137px;
+    margin-top: 8.563rem;
     width: 100%;
   }
 
@@ -1389,8 +1389,8 @@ h5 {
   }
 
   .rest-of-deck {
-    margin-top: 100px;
-    margin-left: -30px;
+    margin-top: 6.25rem;
+    margin-left: -1.875rem;
   }
 }
 
@@ -1407,17 +1407,17 @@ h5 {
   }
 
   .deck-back-img {
-    height: 230px;
+    height: 14.375rem;
   }
 
   .back-cards {
-    height: 230px;
+    height: 14.375rem;
   }
 
   .reading-intro {
     flex-direction: column;
-    width: 300px;
-    height: 400px;
+    width: 18.75rem;
+    height: 25rem;
   }
 
   .slider-button {
@@ -1428,7 +1428,7 @@ h5 {
 
   .click-deck-button {
     font-size: 1.2rem;
-    margin-top: 127px;
+    margin-top: 7.938rem;
     margin-left: 3rem;
     width: 100%;
   }
@@ -1438,8 +1438,8 @@ h5 {
   }
 
   .rest-of-deck {
-    margin-top: 100px;
-    margin-left: -30px;
+    margin-top: 6.25rem;
+    margin-left: -1.875rem;
   }
 }
 
@@ -1456,17 +1456,17 @@ h5 {
   }
 
   .deck-back-img {
-    height: 230px;
+    height: 14.375rem;
   }
 
   .back-cards {
-    height: 230px;
+    height: 14.375rem;
   }
 
   .reading-intro {
     flex-direction: column;
-    width: 250px;
-    height: 400px;
+    width: 15.625rem;
+    height: 25rem;
   }
 
   .slider-button {
@@ -1477,7 +1477,7 @@ h5 {
 
   .click-deck-button {
     font-size: 1.1rem;
-    margin-top: 150px;
+    margin-top: 9.375rem;
     margin-left: 3rem;
     width: 100%;
   }
@@ -1487,8 +1487,8 @@ h5 {
   }
 
   .rest-of-deck {
-    margin-top: 100px;
-    margin-left: -30px;
+    margin-top: 6.25rem;
+    margin-left: -1.875rem;
   }
 }
 
@@ -1505,17 +1505,17 @@ h5 {
   }
 
   .deck-back-img {
-    height: 200px;
+    height: 12.5rem;
   }
 
   .back-cards {
-    height: 200px;
+    height: 12.5rem;
   }
 
   .reading-intro {
     flex-direction: column;
-    width: 250px;
-    height: 400px;
+    width: 15.625rem;
+    height: 25rem;
   }
 
   .slider-button {
@@ -1526,7 +1526,7 @@ h5 {
 
   .click-deck-button {
     font-size: 0.9rem;
-    margin-top: 150px;
+    margin-top: 9.375rem;
     margin-left: 0.7rem;
   }
 
@@ -1535,8 +1535,8 @@ h5 {
   }
 
   .rest-of-deck {
-    margin-top: 80px;
-    margin-left: -30px;
+    margin-top: 5rem;
+    margin-left: -1.875rem;
   }
 }
 
@@ -1553,17 +1553,17 @@ h5 {
   }
 
   .deck-back-img {
-    height: 150px;
+    height: 9.375rem;
   }
 
   .back-cards {
-    height: 150px;
+    height: 9.375rem;
   }
 
   .reading-intro {
     flex-direction: column;
-    width: 250px;
-    height: 400px;
+    width: 15.625rem;
+    height: 25rem;
   }
 
   .slider-button {
@@ -1574,7 +1574,7 @@ h5 {
 
   .click-deck-button {
     font-size: 0.7rem;
-    margin-top: 150px;
+    margin-top: 9.375rem;
     margin-left: -2rem;
   }
 
@@ -1583,8 +1583,8 @@ h5 {
   }
 
   .rest-of-deck {
-    margin-top: 80px;
-    margin-left: -50px;
+    margin-top: 5rem;
+    margin-left: -3.125rem;
   }
 }
 
@@ -1601,17 +1601,17 @@ h5 {
   }
 
   .deck-back-img {
-    height: 125px;
+    height: 7.813rem;
   }
 
   .back-cards {
-    height: 125px;
+    height: 7.813rem;
   }
 
   .reading-intro {
     flex-direction: column;
-    width: 250px;
-    height: 400px;
+    width: 15.625rem;
+    height: 25rem;
   }
   .slider-button {
     margin-top: 2rem;
@@ -1621,7 +1621,7 @@ h5 {
 
   .click-deck-button {
     font-size: 0.7rem;
-    margin-top: 150px;
+    margin-top: 9.375rem;
     margin-left: -4.7rem;
   }
 
@@ -1630,16 +1630,16 @@ h5 {
   }
 
   .rest-of-deck {
-    margin-top: 80px;
-    margin-left: -20px;
+    margin-top: 5rem;
+    margin-left: -1.25rem;
   }
 }
 
 @media (min-width: 390px) and (max-width: 480px) {
   .reading-intro {
     flex-direction: column;
-    width: 230px;
-    height: 400px;
+    width: 14.375rem;
+    height: 25rem;
   }
 
   .instructions {
@@ -1658,11 +1658,11 @@ h5 {
   }
 
   .deck-back-img {
-    height: 125px;
+    height: 7.813rem;
   }
 
   .back-cards {
-    height: 125px;
+    height: 7.813rem;
   }
 
   .slider-button {
@@ -1677,25 +1677,25 @@ h5 {
 
   .click-deck-button {
     font-size: 0.7rem;
-    margin-top: 150px;
+    margin-top: 9.375rem;
     margin-left: -4.7rem;
   }
 
   .rest-of-deck {
-    margin-top: 80px;
-    margin-left: -40px;
+    margin-top: 5rem;
+    margin-left: -2.5rem;
   }
 }
 
 @media (max-width: 389px) and (min-width: 340px) {
   .reading-intro {
     flex-direction: column;
-    width: 214px;
-    height: 400px;
+    width: 13.375rem;
+    height: 25rem;
   }
 
   .deck-container {
-    margin-left: 64px;
+    margin-left: 4rem;
   }
 
   .instructions {
@@ -1706,11 +1706,11 @@ h5 {
   }
 
   .deck-back-img {
-    height: 118px;
+    height: 7.375rem;
   }
 
   .back-cards {
-    height: 118px;
+    height: 7.375rem;
   }
 
   .instructions p {
@@ -1729,25 +1729,25 @@ h5 {
 
   .click-deck-button {
     font-size: 0.7rem;
-    margin-top: 150px;
+    margin-top: 9.375rem;
     /* margin-left: -4.7rem; */
   }
 
   .rest-of-deck {
-    margin-top: 80px;
-    margin-left: -40px;
+    margin-top: 5rem;
+    margin-left: -2.5rem;
   }
 }
 
 @media (max-width: 339px) and (min-width: 317px) {
   .reading-intro {
     flex-direction: column;
-    width: 180px;
-    height: 400px;
+    width: 11.25rem;
+    height: 25rem;
   }
 
   .deck-container {
-    margin-left: 64px;
+    margin-left: 4rem;
   }
 
   .instructions {
@@ -1758,11 +1758,11 @@ h5 {
   }
 
   .deck-back-img {
-    height: 118px;
+    height: 7.375rem;
   }
 
   .back-cards {
-    height: 118px;
+    height: 7.375rem;
   }
 
   .instructions p {
@@ -1781,13 +1781,13 @@ h5 {
 
   .click-deck-button {
     font-size: 0.7rem;
-    margin-top: 150px;
+    margin-top: 9.375rem;
     margin-left: -4.7rem;
   }
 
   .rest-of-deck {
-    margin-top: 80px;
-    margin-left: -40px;
+    margin-top: 5rem;
+    margin-left: -2.5rem;
   }
 }
 
@@ -1796,19 +1796,19 @@ h5 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 auto 32px;
+  margin: 0 auto 2rem;
   width: 100%;
 }
 
 @media (min-width: 406px) and (max-width: 590px) {
   .first-row-h1 {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 }
 
 @media (max-width: 405px) {
   .first-row-h1 {
-    font-size: 15px;
+    font-size: 0.938rem;
   }
 }
 
@@ -1829,15 +1829,15 @@ h5 {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #eee;
-  padding: 20px;
-  border-radius: 10px;
+  padding: 1.25rem;
+  border-radius: 0.625rem;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .custom-alert-button {
-  margin-top: 20px;
-  padding: 10px 20px;
+  margin-top: 1.25rem;
+  padding: 0.625rem 1.25rem;
   background-color: var(--main-color);
   color: #eee;
   border: none;
@@ -1971,8 +1971,8 @@ h5 {
 
 textarea {
   width: 100%;
-  height: 100px;
-  padding: 10px;
+  height: 6.25rem;
+  padding: 0.625rem;
   box-sizing: border-box;
 }
 
@@ -1986,13 +1986,13 @@ textarea {
 .booking-button {
   background-color: var(--main-color);
   color: #eee;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   box-shadow: 0 0 0.313rem #eee;
-  padding: 15px 32px 13px;
+  padding: 0.938rem 2rem 0.813rem;
   border: none;
   cursor: pointer;
-  margin-bottom: 16px;
-  font-size: 18px;
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
   font-family: "Outfit", "sans-serif";
   font-weight: 500;
   line-height: 1;
@@ -2013,8 +2013,8 @@ textarea {
   }
 
   #form-content button {
-    padding: 8px 16px;
-    font-size: 14px;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
   }
 }
 
@@ -2025,8 +2025,8 @@ textarea {
   }
 
   #form-content button {
-    padding: 6px 14px;
-    font-size: 12px;
+    padding: 0.375rem 0.875rem;
+    font-size: 0.75rem;
   }
 }
 
@@ -2085,21 +2085,21 @@ textarea {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 48px;
-  margin: 32px auto;
+  padding: 3rem;
+  margin: 2rem auto;
   width: 80%;
   background-color: rgba(156, 163, 175, 0.09);
-  border-radius: 16px;
+  border-radius: 1rem;
   text-align: center;
 }
 
 @media (max-width: 530px) {
   .past-present-future h2 {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .past-present-future p {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
   .card-interpretation p {
@@ -2109,11 +2109,11 @@ textarea {
 
 @media (max-width: 460px) {
   .past-present-future h2 {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
   .past-present-future p {
-    font-size: 10px;
+    font-size: 0.625rem;
   }
 
   .card-interpretation p {
@@ -2127,11 +2127,11 @@ textarea {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  margin: 128px auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 8rem auto;
+  border-radius: 0.625rem;
+  box-shadow: 0 4px 0.625rem rgba(0, 0, 0, 0.1);
   background-color: rgba(156, 163, 175, 0.09);
-  padding: 32px;
+  padding: 2rem;
 }
 
 .slider .slider-inner {
@@ -2148,8 +2148,8 @@ textarea {
 .slider .indicators {
   display: flex;
   position: absolute;
-  top: 30px;
-  right: 50px;
+  top: 1.875rem;
+  right: 3.125rem;
   z-index: 1;
 }
 
@@ -2162,8 +2162,8 @@ textarea {
 
 .slider .indicators .indicator {
   margin: 0px 5px;
-  width: 10px;
-  height: 10px;
+  width: 0.625rem;
+  height: 0.625rem;
   background-color: gray;
   border: 1px solid #ffffff;
   border-radius: 4px;
@@ -2173,7 +2173,7 @@ textarea {
 }
 
 .slider .indicators .indicator[active] {
-  width: 15px;
+  width: 0.938rem;
   opacity: 1;
 }
 
@@ -2181,7 +2181,7 @@ textarea {
   display: flex;
   align-items: center;
   position: absolute;
-  top: 0px;
+  top: 0;
   width: 100%;
   height: 100%;
 }
@@ -2192,8 +2192,8 @@ textarea {
   align-items: center;
   justify-content: center;
   position: absolute;
-  width: 30px;
-  height: 30px;
+  width: 1.875rem;
+  height: 1.875rem;
   background-color: lightgray;
   border: 1px solid #ffffff;
   border-radius: 4px;
@@ -2208,11 +2208,11 @@ textarea {
 }
 
 .slider .arrows .arrow-prev {
-  left: 50px;
+  left: 3.125rem;
 }
 
 .slider .arrows .arrow-next {
-  right: 50px;
+  right: 3.125rem;
 }
 
 .slider .arrows .arrow-prev .fas,
@@ -2301,8 +2301,8 @@ textarea {
   margin: auto;
   text-align: center;
   background-color: rgba(99, 102, 241, 0.05);
-  padding: 16px 16px;
-  border-radius: 16px;
+  padding: 1rem 1rem;
+  border-radius: 1rem;
 }
 .live-head-content h1 {
   font-size: 2.25rem;
@@ -2338,7 +2338,7 @@ textarea {
   color: var(--main-color);
   text-decoration: none;
   border: none;
-  margin-top: 64px;
+  margin-top: 4rem;
   margin-bottom: 0;
   cursor: pointer;
   background: transparent;
@@ -2353,7 +2353,7 @@ textarea {
 }
 
 .why-live-content {
-  max-width: 1280px;
+  max-width: 80rem;
   margin: 0 auto;
   padding: 0 2rem;
 }
@@ -2435,8 +2435,8 @@ textarea {
   width: 80%;
   margin: 0 auto;
   background-color: rgba(156, 163, 175, 0.09);
-  border-radius: 8px;
-  padding: 32px;
+  border-radius: 0.5rem;
+  padding: 2rem;
 }
 
 @media (min-width: 1024px) {
@@ -2467,11 +2467,11 @@ textarea {
 .preparation-title {
   font-weight: 600;
   color: var(--main-color);
-  font-size: 20px;
+  font-size: 1.25rem;
   display: flex;
   align-items: center;
-  margin-bottom: 16px;
-  margin-top: 16px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .preparation-title .icon {
@@ -2533,11 +2533,11 @@ textarea {
 
 .pricing-section {
   max-width: 56rem;
-  margin: 128px auto;
+  margin: 8rem auto;
   text-align: center;
   background-color: rgba(156, 163, 175, 0.09);
-  border-radius: 8px;
-  padding: 0 32px;
+  border-radius: 0.5rem;
+  padding: 0 2rem;
 }
 
 .text-indigo {
@@ -2622,8 +2622,8 @@ textarea {
   border: 1px solid var(--main-color);
   cursor: pointer;
   /* margin-bottom: 16px; */
-  margin-top: 64px;
-  font-size: 18px;
+  margin-top: 4rem;
+  font-size: 1.125rem;
   font-family: "Outfit", "sans-serif";
   font-weight: 500;
   line-height: 1;
@@ -2651,7 +2651,7 @@ textarea {
 
 @media (min-width: 1024px) {
   .end-content {
-    padding: 32px 8px;
+    padding: 2rem 0.5rem;
   }
 }
 
@@ -2669,7 +2669,7 @@ textarea {
 }
 
 .end-description {
-  margin-top: 24px;
+  margin-top: 1.5rem;
   max-width: 40rem;
   margin-left: auto;
   margin-right: auto;
@@ -2679,10 +2679,10 @@ textarea {
 }
 
 .end-button-group {
-  margin-top: 40px;
+  margin-top: 2.5rem;
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 1.5rem;
   align-items: center;
 }
 
@@ -2695,8 +2695,8 @@ textarea {
   border: 1px solid var(--main-color);
   cursor: pointer;
   /* margin-bottom: 16px; */
-  margin-top: 64px;
-  font-size: 18px;
+  margin-top: 4rem;
+  font-size: 1.125rem;
   font-family: "Outfit", "sans-serif";
   font-weight: 500;
   line-height: 1;
@@ -2730,7 +2730,7 @@ textarea {
 /* Testimonial Slider */
 
 .testimonial-section-padding {
-  padding: 32px 0;
+  padding: 2rem 0;
   /* background-color: #eee; */
   background-image: url(./images/Fade.png);
   background-size: cover;
@@ -2742,20 +2742,20 @@ textarea {
 
 .testimonial-section-title {
   text-align: center;
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
 }
 
 .testimonial-section-borders span {
   height: 5px;
   background: var(--main-color);
-  width: 40px;
+  width: 2.5rem;
   display: inline-block;
   border-radius: 2px;
 }
 
 .testimonial-section-borders span.black-border {
   background: #333;
-  width: 30px;
+  width: 1.875rem;
   margin: 0 6px;
 }
 
@@ -2770,9 +2770,9 @@ textarea {
   position: relative;
   box-shadow: 0 0 2px #dadfd3;
   margin: 0 auto;
-  padding: 20px;
+  padding: 1.25rem;
   font-style: italic;
-  padding-left: 85px;
+  padding-left: 5.313rem;
   width: 60%;
   background-color: rgba(99, 102, 241, 0.05);
 }
@@ -2782,49 +2782,49 @@ textarea {
   content: "\f10e";
   font-weight: 900;
   position: absolute;
-  left: 20px;
+  left: 1.25rem;
   top: 50%;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: var(--main-color);
-  line-height: 30px;
-  margin-top: -15px;
+  line-height: 1.875rem;
+  margin-top: -0.938rem;
 }
 
 .single-testimonial-item:after {
   background: #ddd;
   content: "";
   height: 70%;
-  left: 60px;
+  left: 3.75rem;
   position: absolute;
   top: 10%;
   width: 1px;
 }
 
 .single-testimonial-item h3 {
-  font-size: 20px;
+  font-size: 1.25rem;
   /* font-style: normal; */
   margin-bottom: 0;
 }
 
 .single-testimonial-item h3 span {
   display: block;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: normal;
   margin-top: 5px;
 }
 
 .carousel-dots {
   text-align: center;
-  margin-top: 25px;
+  margin-top: 1.563rem;
 }
 
 .carousel-dots .dot {
   height: 5px;
   background: var(--secondary-color);
-  width: 20px;
+  width: 1.25rem;
   display: inline-block;
   margin: 5px;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   border: transparent;
   cursor: pointer;
   transition: width 0.2s, background-color 0.2s;
@@ -2832,19 +2832,19 @@ textarea {
 
 .carousel-dots .dot.active {
   background: var(--main-color);
-  width: 30px;
+  width: 1.875rem;
 }
 
 .personalized-section {
   background-color: rgba(99, 102, 241, 0.05);
   padding: 6rem 0;
   position: relative;
-  margin: 128px 0;
+  margin: 8rem 0;
 }
 
 @media (max-width: 470px) {
   .personalized-section {
-    margin-top: 64px;
+    margin-top: 4rem;
   }
 }
 
@@ -2870,7 +2870,7 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 64px;
+  gap: 4rem;
 }
 
 @media screen and (min-width: 1024px) {
@@ -2908,7 +2908,7 @@ textarea {
 }
 
 .title {
-  font-size: 24px;
+  font-size: 1.5rem;
   color: var(--main-color);
 }
 
