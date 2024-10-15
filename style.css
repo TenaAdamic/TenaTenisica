@@ -122,9 +122,9 @@ h5 {
   left: 0;
   width: 100%;
   z-index: 1000;
-  background-color: rgba(240, 240, 240, 0.9);
+  background-color: rgba(240, 240, 240, 1);
   /* box-shadow: 0 0.125rem 0.313rem rgba(0, 0, 0, 0.1); */
-  border: 1px solid var(--secondary-color);
+  border: none;
 }
 
 .nav-list {
