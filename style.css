@@ -136,6 +136,12 @@ h5 {
   list-style: none;
 }
 
+.nav-disabled {
+  color: black;
+  pointer-events: none;
+  cursor: default;
+}
+
 /* Iz nekog razloga mi ovaj slider i arrows-prev se ne  mijenjaju s responzivnošću */
 
 @media (max-width: 600px) {
