@@ -22,6 +22,7 @@ body::after {
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 * {
@@ -41,6 +42,7 @@ body {
   padding-top: 5rem;
   /* overflow: hidden; */
   /* background-color: #eee; */
+  overflow-x: hidden;
 }
 
 #backgroundVideo {
@@ -86,8 +88,9 @@ h3 {
 }
 
 h5 {
-  font-size: 24px;
-  margin-bottom: 32px;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
   color: var(--main-color);
   text-align: center;
 }
@@ -2127,10 +2130,10 @@ textarea {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  margin: 8rem auto;
+  margin: 3rem auto;
   border-radius: 0.625rem;
   box-shadow: 0 4px 0.625rem rgba(0, 0, 0, 0.1);
-  background-color: rgba(156, 163, 175, 0.09);
+  background-color: rgba(99, 102, 241, 0.05);
   padding: 2rem;
 }
 
@@ -2837,7 +2840,7 @@ textarea {
 
 .personalized-section {
   background-color: rgba(99, 102, 241, 0.05);
-  padding: 6rem 0;
+  padding: 2rem 0;
   position: relative;
   margin: 8rem 0;
 }
@@ -2858,7 +2861,7 @@ textarea {
   display: flex;
   /* flex-direction: column; */
   justify-content: center;
-  background-color: rgba(250, 255, 255, 0.09);
+
   padding: 4rem 1.5rem;
   border-radius: 1.5rem;
   border: 1px solid rgba(255, 255, 255, 0.1);

@@ -276,11 +276,10 @@ document.addEventListener("DOMContentLoaded", () => {
       .classList.add("hidden");
     document.querySelector(".instructions").classList.add("hidden");
     document.querySelector(".past-present-future").style.display = "flex";
-    document.querySelector(".styled-hr").classList.add("hidden");
+    document.querySelector(".styled-text").classList.add("hidden");
     document.querySelector(".slider").classList.add("hidden");
     document.querySelector(".personalized-section").classList.add("hidden");
     displayPrompt.classList.add("hidden");
-    document.querySelector("#slider-divider").classList.add("hidden");
 
     document.querySelector(".show-container").style.display = "flex";
 
