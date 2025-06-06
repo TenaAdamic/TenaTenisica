@@ -531,7 +531,7 @@ h5 {
 }
 
 .deck-and-spread-container {
-  background-color: rgba(99, 102, 241, 0.05);
+  /* background-color: rgba(99, 102, 241, 0.05); */
   /* padding: 32px; */
 }
 
@@ -1329,7 +1329,7 @@ h5 {
   }
 }
 
-.click-deck-button {
+/* .click-deck-button {
   font-size: 1rem;
   font-weight: 600;
   color: blue;
@@ -1338,7 +1338,7 @@ h5 {
   margin-top: 4rem;
   background: transparent;
   animation: soft-blink 1.5s infinite;
-}
+} */
 
 .slider-button {
   font-size: 0.875rem;
@@ -1387,11 +1387,11 @@ h5 {
     margin-left: -3px;
   }
 
-  .click-deck-button {
+  /* .click-deck-button {
     font-size: 1.2rem;
     margin-top: 8.563rem;
     width: 100%;
-  }
+  } */
 
   .click-deck-div {
     left: 50%;
