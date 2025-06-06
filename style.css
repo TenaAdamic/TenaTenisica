@@ -29,8 +29,11 @@ html {
   margin: 0;
   padding: 0;
   color: black;
-  font-family: "Outfit", sans-serif;
+  /* font-family: "Outfit", sans-serif;
   font-weight: 300;
+  font-style: normal; */
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -66,8 +69,11 @@ body {
 }
 
 h1 {
-  font-family: "Tenor Sans", sans-serif;
+  /* font-family: "Tenor Sans", sans-serif;
+  font-weight: 400; */
+  font-family: "Archivo Black", sans-serif;
   font-weight: 400;
+  font-style: normal;
   font-size: 30px;
   margin: 32px;
 }
@@ -79,8 +85,9 @@ h2 {
 }
 
 h3 {
-  font-family: "Tenor Sans", sans-serif;
+  font-family: "Archivo Black", sans-serif;
   font-weight: 400;
+  font-style: normal;
   text-transform: uppercase;
   font-size: 24px;
   margin-bottom: 64px;
@@ -110,8 +117,11 @@ h5 {
 }
 
 .hero-h1 {
-  font-family: "Tenor Sans", sans-serif;
+  /* font-family: "Tenor Sans", sans-serif;
+  font-weight: 400; */
+  font-family: "Archivo Black", sans-serif;
   font-weight: 400;
+  font-style: normal;
   font-size: 42px;
   margin: 32px auto;
 }
@@ -278,7 +288,7 @@ h5 {
   border-radius: 8px;
   margin: 64px 32px;
   box-shadow: 0 0.125rem 0.313rem rgba(0, 0, 0, 0.1);
-  filter: grayscale(80%);
+  filter: grayscale(50%);
 }
 
 @media (max-width: 650px) {
