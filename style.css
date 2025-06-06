@@ -316,8 +316,11 @@ h5 {
   /* margin-bottom: 16px; */
   margin-top: 64px;
   font-size: 18px;
-  font-family: "Outfit", "sans-serif";
-  font-weight: 500;
+  /* font-family: "Outfit", "sans-serif";
+  font-weight: 500; */
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   line-height: 1;
   letter-spacing: 1.25px;
 }
@@ -2012,8 +2015,11 @@ textarea {
   cursor: pointer;
   margin-bottom: 1rem;
   font-size: 1.125rem;
-  font-family: "Outfit", "sans-serif";
-  font-weight: 500;
+  /* font-family: "Outfit", "sans-serif";
+  font-weight: 500; */
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   line-height: 1;
   letter-spacing: 1.25px;
 }
