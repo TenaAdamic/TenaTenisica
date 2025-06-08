@@ -156,7 +156,7 @@ h5 {
 
 @media (max-width: 600px) {
   .nav-container {
-    justify-content: center;
+    /* justify-content: center; */
   }
 
   .home-intro-h2 {
@@ -279,7 +279,7 @@ h5 {
 
 .text-part p {
   margin: 32px 32px;
-  background-color: rgba(99, 102, 241, 0.05);
+  background-color: rgba(99, 102, 241, 0.3);
   padding: 32px;
   border-radius: 16px;
 }
@@ -528,7 +528,7 @@ h5 {
 /* Application page starts here */
 
 .online-reading {
-  background-image: url(./images/Fade.png);
+  background-image: url(./images/Hibiscus.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -1305,9 +1305,9 @@ h5 {
   position: absolute;
   top: 30%;
   left: 30%;
-  padding: 2rem;
-  /* background-color: rgba(226, 220, 233, 0.01); */
-  /* border-radius: 16px; */
+  padding: 1rem;
+  background-color: rgba(99, 102, 241, 0.4);
+  border-radius: 1rem;
 }
 
 @keyframes slideInRight {
@@ -2113,7 +2113,7 @@ textarea {
   padding: 3rem;
   margin: 2rem auto;
   width: 80%;
-  background-color: rgba(156, 163, 175, 0.09);
+  background-color: rgba(99, 102, 241, 0.2);
   border-radius: 1rem;
   text-align: center;
 }
@@ -2155,7 +2155,7 @@ textarea {
   margin: 3rem auto;
   border-radius: 0.625rem;
   box-shadow: 0 4px 0.625rem rgba(0, 0, 0, 0.1);
-  background-color: rgba(99, 102, 241, 0.05);
+  background-color: rgba(99, 102, 241, 0.4);
   padding: 2rem;
 }
 
@@ -2325,7 +2325,7 @@ textarea {
   max-width: 60rem;
   margin: auto;
   text-align: center;
-  background-color: rgba(99, 102, 241, 0.05);
+  background-color: rgba(99, 102, 241, 0.4);
   padding: 1rem 1rem;
   border-radius: 1rem;
 }
@@ -2425,7 +2425,7 @@ textarea {
 }
 
 .why-live-item {
-  background-color: rgba(156, 163, 175, 0.08);
+  background-color: rgba(60, 15, 175, 0.08);
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -2459,7 +2459,7 @@ textarea {
   gap: 2rem;
   width: 80%;
   margin: 0 auto;
-  background-color: rgba(156, 163, 175, 0.09);
+  background-color: rgba(60, 15, 175, 0.09);
   border-radius: 0.5rem;
   padding: 2rem;
 }
@@ -2560,7 +2560,7 @@ textarea {
   max-width: 56rem;
   margin: 8rem auto;
   text-align: center;
-  background-color: rgba(156, 163, 175, 0.09);
+  background-color: rgba(60, 15, 175, 0.09);
   border-radius: 0.5rem;
   padding: 0 2rem;
 }
@@ -2661,7 +2661,7 @@ textarea {
 }
 
 .end-container {
-  background-color: rgba(99, 102, 241, 0.05);
+  background-color: rgba(99, 102, 241, 0.4);
 }
 
 .end-content {
@@ -2799,7 +2799,7 @@ textarea {
   font-style: italic;
   padding-left: 5.313rem;
   width: 60%;
-  background-color: rgba(99, 102, 241, 0.05);
+  background-color: rgba(99, 102, 241, 0.3);
 }
 
 .single-testimonial-item:before {
@@ -2861,7 +2861,7 @@ textarea {
 }
 
 .personalized-section {
-  background-color: rgba(99, 102, 241, 0.05);
+  /* background-color: rgba(99, 102, 241, 0.4); */
   padding: 2rem 0;
   position: relative;
   margin: 8rem 0;
@@ -2875,8 +2875,10 @@ textarea {
 
 .personalized-content-wrapper {
   position: relative;
+  background-color: rgba(99, 102, 241, 0.4);
   max-width: 80rem;
   margin: 0 auto;
+  border-radius: 1rem;
 }
 
 .personalized-content-container {
