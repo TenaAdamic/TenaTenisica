@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="hr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,11 +10,14 @@
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
     <link rel="manifest" href="site.webmanifest" />
     <link rel="stylesheet" href="style.css" />
+    <!-- CookieConsent CSS -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css"
+      <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap"
@@ -47,7 +50,7 @@
   </head>
   <body>
     <nav class="nav-container">
-      <a href="./index.html">
+      <a href="./tarot-speaks.html">
         <img
           src="./images/Mimi_logo.png"
           height="120px"
@@ -56,19 +59,19 @@
       </a>
 
       <ul class="nav-list">
-        <li><a href="./onlineČitanje.html">Online tarot</a></li>
+        <li><a href="./online-tarot-reading.html">Online Tarot</a></li>
         <li>
-          <a href="#" class="nav-disabled" style="color: #b8a9c9"
-            >Osobni tarot</a
+          <a href="#" class="nav-disabled" style="color: #b8a9c9">
+            Personal Tarot</a
           >
         </li>
       </ul>
 
       <div class="language-container">
-        <a href="./liveReadingEng.html" class="english">
+        <a href="./osobni-tarot.html" class="english">
           <img
-            src="images/gb.svg"
-            alt="English"
+            src="./images/hr.svg"
+            alt="Croatian"
             class="language-img"
             style="width: 2rem; border-radius: 5px"
           />
@@ -79,18 +82,20 @@
     <div class="live-reading">
       <div class="live-head-container">
         <div class="live-head-content">
-          <h1 style="color: #000000">Tarot, ali stvaran.</h1>
+          <h1 style="color: black">Not Your Algorithm’s Tarot</h1>
           <p style="color: #4b4b4b">
-            Izvuci odgovore koje već nosiš u sebi na stol. Zaboravi generičke
-            odgovore i copy-paste sudbinu. Osobno tarot čitanje je skroz druga
-            igra, karte se otvaraju baš za tebe, tvoje pitanje i tvoj trenutak.
-            Dobivaš uvide u realnom vremenu, razgovor bez filtera i ono
-            najvažnije, osjećaj da netko stvarno čuje što pitaš.
+            Forget generic, copy-paste destiny. Personal tarot reading is a
+            whole different game. It means a human (that's me) pulls the cards
+            for you, listens, and reflects back whatever the universe has been
+            trying to scream-whisper into your brain. No bots. Just clarity.
+            It's the kind of reading that lingers in your head for days, like a
+            weirdly vivid dream that actually makes sense.
           </p>
         </div>
 
         <button class="prices-button">
-          Cjenik i rezervacija<span style="margin-left: 0.5rem">
+          How much would it cost?
+          <span style="margin-left: 0.5rem">
             <i class="fa-solid fa-arrow-down"></i>
           </span>
         </button>
@@ -98,46 +103,43 @@
 
       <hr class="styled-hr" />
 
-      <!-- <hr class="styled-hr"> -->
-
       <div class="why-live-container">
         <div class="why-live-content">
           <div class="why-live-text">
-            <h1>Zašto ići na osobno tarot čitanje?</h1>
+            <h1>Why go personal?</h1>
             <p>
-              Nitko ti neće servirati gotove fraze, nego prave uvide, skrojene
-              po tebi.
+              Because real-time answers hit different. You ask, I explain, no
+              lag, no guesswork, just a back-and-forth that actually feels like
+              a conversation, not a quiz.
             </p>
           </div>
           <div class="why-live-grid">
             <div class="why-live-item">
-              <dd class="why-live-bold">Interakcija u Stvarnom Vremenu</dd>
+              <dd class="why-live-bold">Real-Time Vibes</dd>
               <dt>
-                Postavi pitanje. Dobij odgovor. I ako ti nešto nije jasno, pitaj
-                opet. Bez čekanja, bez prebacivanja na drugu stranu ekrana.
+                You’ve got questions. I’ve got cards, and answers that don’t
+                make you wait. Ask, go deeper, repeat.
               </dt>
             </div>
             <div class="why-live-item">
-              <dd class="why-live-bold">Osobna Povezanost</dd>
+              <dd class="why-live-bold">Actual Human Connection</dd>
               <dt>
-                Zaboravi hladne ekrane, ovdje dišeš, osjećaš i osluškuješ
-                energiju u stvarnom prostoru. Tarot uživo je kao razgovor s
-                nekim tko stvarno vidi kroz tvoju priču.
+                This isn’t some cold algorithm. It’s you, me, the cards, and the
+                kind of energy you can feel.
               </dt>
             </div>
             <div class="why-live-item">
-              <dd class="why-live-bold">Potpuno Prilagođeno Tebi</dd>
+              <dd class="why-live-bold">Made for Your Moment</dd>
               <dt>
-                Nema kopiranja, nema klišeja. Svako čitanje je custom-made za
-                tvoju situaciju, tvoje dileme i ono što ti treba, baš sad, u
-                ovom trenutku.
+                No copy-paste readings here. Every session is shaped around what
+                you’re dealing with right now.
               </dt>
             </div>
             <div class="why-live-item">
-              <dd class="why-live-bold">Tvoje karte, tvoja tajna</dd>
+              <dd class="why-live-bold">Private, Always</dd>
               <dt>
-                Sve što kažeš i što karte otkriju ostaje samo između nas. Zato
-                možeš biti totalno opušten/a i bez brige.
+                What’s said in the reading stays in the reading. Total
+                discretion. Zero judgment.
               </dt>
             </div>
           </div>
@@ -147,13 +149,15 @@
       <hr class="styled-hr" />
 
       <div class="preparation-container">
-        <h1 style="text-align: center">Kako funkcionira tarot uživo</h1>
+        <h1 style="text-align: center">How Live Readings Work</h1>
         <div class="preparation-content-grid">
           <div class="preparation-text">
             <p class="description">
-              Ako ti treba stvarni vibe, dođi u park Maksimir, zelenilo, mir i
-              ti, a tarot u ruci. Ne voliš izlaziti iz kuće? Nema frke, uzmi
-              video poziv i dobivaš sve odgovore dok chill-aš doma u pidžami.
+              Come to Maksimir Park. Trees, peace, you, and a deck of tarot
+              cards in hand. Zero distractions, just nature and insight. Not a
+              fan of leaving the house? No big deal. Book a video call and get
+              all the answers while you chill at home in your pajamas. Same
+              cards, same magic, just with Wi-Fi.
             </p>
             <dl class="preparation-list">
               <div class="preparation-item">
@@ -166,15 +170,15 @@
                     "
                     >1.</span
                   >
-                  Rezerviraj svoj termin.
+                  Book Your Appointment.
                 </dt>
                 <dd>
-                  <a href="#"
+                  <a href="mailto:mail@mimitarot.com"
                     ><span style="color: #622569; cursor: pointer"
-                      >Rezerviraj</span
+                      >Pick</span
                     ></a
                   >
-                  vrijeme koje ti odgovara.
+                  a time that works. Easy.
                 </dd>
               </div>
               <div class="preparation-item">
@@ -187,11 +191,11 @@
                     "
                     >2.</span
                   >
-                  Pripremi Pitanja.
+                  Bring your burning questions.
                 </dt>
                 <dd>
-                  Možeš donijeti specifično pitanje ili dopustiti da tarot vodi
-                  čitanje.
+                  Got something specific? Bring it. Not sure? Let the cards take
+                  the wheel.
                 </dd>
               </div>
               <div class="preparation-item">
@@ -204,11 +208,11 @@
                     "
                     >3.</span
                   >
-                  Poveži se Uživo.
+                  Connect Live.
                 </dt>
                 <dd>
-                  Izaberi hoćeš li face-to-face u Maksimiru, preko videa, zvuka
-                  ili poruka.
+                  Choose whether you want the reading via video call, voice
+                  call, or messages.
                 </dd>
               </div>
               <div class="preparation-item">
@@ -221,11 +225,12 @@
                     "
                     >4.</span
                   >
-                  Primi Smjernice.
+                  Get the guidance.
                 </dt>
                 <dd>
-                  Čitam karte, tumačim i objašnjavam, a ti slobodno postavljaj
-                  dodatna pitanja, ovo je razgovor, a ne monolog.
+                  I read, interpret, and tell it like it is. You ask follow-ups,
+                  dig deeper, or just soak it all in. No mystic gatekeeping.
+                  Just insight that actually hits.
                 </dd>
               </div>
             </dl>
@@ -233,8 +238,8 @@
           <div class="preparation-image">
             <img
               src="./images/live_reading.png"
-              alt="Personalizirano čitanje tarot karata"
-              style="border-radius: 1rem; border: 1px solid #eee"
+              alt="Product screenshot"
+              style="border-radius: 16px; border: 1px solid #eee"
               class="image-live-preparation"
             />
           </div>
@@ -250,63 +255,61 @@
 
       <div class="pricing-section">
         <div class="pricing-container text-center">
-          <h1>Cjenik i rezervacija</h1>
+          <h1>Pricing and Booking</h1>
         </div>
         <p class="pricing-description">
-          Osobna čitanja dostupna su uz prethodnu rezervaciju.
+          Personal readings are available by prior reservation.
         </p>
         <div class="pricing-grid">
           <div class="pricing-card">
-            <h3 id="personal" class="text-indigo">Video Poziv</h3>
+            <h3 id="personal" class="text-indigo">Video Call</h3>
             <p class="price">
               <span class="amount">€40</span>
-              <span class="duration">/ 1 sat</span>
+              <span class="duration">/ 1 hour</span>
             </p>
             <p class="plan-description">
-              Osobno čitanje bez izlaska iz stana, samo ti, karte i tvoja
-              omiljena šalica kave.
+              Personal tarot reading from your couch, your bed, or wherever you
+              feel most you.
             </p>
-
             <button
               class="booking-button"
               id="booking-button-video"
               style="margin-top: 0"
             >
-              Rezerviraj termin
+              Book a Session
             </button>
           </div>
 
           <div class="pricing-card team-plan">
-            <h3 id="team-plan" class="text-indigo">Uživo</h3>
+            <h3 id="team-plan" class="text-indigo">In-Person</h3>
             <p class="price">
               <span class="amount">€50</span>
-              <span class="duration">/ 1 sat</span>
+              <span class="duration">/ 1 hour</span>
             </p>
             <p class="plan-description">
-              Zaboravi ekran, karte te čekaju pod krošnjama. Priroda, ti i
-              tarot. Zvuči kao plan.
+              Maksimir Park magic. Fresh air, real energy, deep reads. Come sit,
+              ask, feel seen.
             </p>
-
             <button
               class="booking-button"
               id="cta-button-outline"
               style="margin-top: 0"
             >
-              Rezerviraj termin
+              Book a Session
             </button>
           </div>
         </div>
       </div>
 
-      <!-- Modal for "Rezervacija Termina" video call-->
+      <!-- Modal for "Book Appointment" video call-->
 
       <div style="display: none" class="modal-content-video">
         <span class="close">&times;</span>
         <div class="modal-container">
-          <h2>Rezerviraj termin</h2>
+          <h2>Book a Session</h2>
           <p style="font-weight: 400">
-            Pošalji poruku,<br />
-            javit ćemo ti se unutar 24 sata da dogovorimo termin.
+            Send a message,<br />
+            we will get back to you within 24 hours to arrange an appointment.
           </p>
           <form
             id="form-content"
@@ -316,30 +319,28 @@
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required />
             <br />
-            <label for="message">Poruka:</label>
+            <label for="message">Message:</label>
             <textarea
               id="message"
               name="message"
               maxlength="200"
-              placeholder="Unesi svoju poruku ovdje..."
+              placeholder="Enter your message here..."
               required
               style="margin: 8px; padding: 12px 20px"
             ></textarea>
             <br />
-            <button style="margin-top: 3vh" type="submit">Pošalji</button>
+            <button style="margin-top: 3vh" type="submit">Send</button>
           </form>
         </div>
       </div>
 
-      <!-- Modal for "Rezervacija Termina" live reading-->
-
-      <div style="display: none" class="modal-content-live">
-        <span class="close-live">&times;</span>
+      <div style="display: none" class="modal-content-video">
+        <span class="close">&times;</span>
         <div class="modal-container">
-          <h2>Rezerviraj termin</h2>
+          <h2>Book a Session</h2>
           <p style="font-weight: 400">
-            Pošalji poruku,<br />
-            javit ćemo ti se unutar 24 sata da dogovorimo termin.
+            Send a message,<br />
+            we will get back to you within 24 hours to arrange an appointment.
           </p>
           <form
             id="form-content"
@@ -349,17 +350,50 @@
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required />
             <br />
-            <label for="message">Poruka:</label>
+            <label for="message">Message:</label>
             <textarea
               id="message"
               name="message"
               maxlength="200"
-              placeholder="Unesi svoju poruku ovdje..."
+              placeholder="Enter your message here..."
               required
               style="margin: 8px; padding: 12px 20px"
             ></textarea>
             <br />
-            <button style="margin-top: 3vh" type="submit">Pošalji</button>
+            <button style="margin-top: 3vh" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Modal for "Book Appointment" live reading-->
+
+      <div style="display: none" class="modal-content-live">
+        <span class="close-live">&times;</span>
+        <div class="modal-container">
+          <h2>Book a Session</h2>
+          <p style="font-weight: 400">
+            Send a message,<br />
+            we will get back to you within 24 hours to arrange an appointment.
+          </p>
+          <form
+            id="form-content"
+            action="https://getform.io/f/bejykyna"
+            method="POST"
+          >
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+            <br />
+            <label for="message">Message:</label>
+            <textarea
+              id="message"
+              name="message"
+              maxlength="200"
+              placeholder="Enter your message here..."
+              required
+              style="margin: 8px; padding: 12px 20px"
+            ></textarea>
+            <br />
+            <button style="margin-top: 3vh" type="submit">Send</button>
           </form>
         </div>
       </div>
@@ -367,24 +401,24 @@
       <div class="end-container">
         <div class="end-content">
           <div class="end-text-center">
-            <h1>Imaš li neko pitanje?</h1>
+            <h1>Do you have any questions?</h1>
             <p class="end-description">
-              Ako imaš dodatna pitanja prije nego što rezerviraš termin,
-              slobodno me kontaktiraj putem e-maila. Rado ću ti pomoći i
-              osigurati da odabereš čitanje koje najbolje odgovara tvojim
-              potrebama.
+              If you have any additional questions before booking an
+              appointment, feel free to contact me via email. I will be happy to
+              assist you and ensure you choose a reading that best meets your
+              needs.
             </p>
             <div class="end-button-group">
               <a href="mailto:mail@mimitarot.com">
                 <button class="contact-us" style="margin-top: 0">
-                  Kontaktiraj
+                  Contact
                 </button>
               </a>
-              <a href="./index.html#targetFaqSection"
-                ><button class="faq-button">
-                  Više informacija <span aria-hidden="true">→</span>
-                </button></a
-              >
+              <a href="./tarot-speaks.html#targetFaqSection">
+                <button class="faq-button">
+                  More Information <span aria-hidden="true">→</span>
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -404,19 +438,18 @@
       <div class="legal">
         <a
           href="https://www.freeprivacypolicy.com/live/e6f8838f-3845-4bb8-b868-28d5506ff939"
-          >Politika privatnosti</a
+          >Privacy Policy</a
         >
         <a
           href="https://www.freeprivacypolicy.com/live/dffb4cef-b443-44f9-a0fa-1ec5c8ea5145"
-          >Uslovi korištenja</a
+          >Terms & Conditions</a
         >
         <a
           href="https://www.termsfeed.com/live/5b7e8c60-db1b-44da-a6d4-399da9c3a433"
-          >Politika kolačića</a
+          >Cookie Policy</a
         >
       </div>
     </footer>
-
     <!-- CookieConsent JS -->
     <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
 

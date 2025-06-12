@@ -1,0 +1,29 @@
+{
+  "redirects": [
+    {
+      "source": "/onlineČitanje.html",
+      "destination": "/online-tarot.html",
+      "permanent": true
+    },
+    {
+      "source": "/liveReadingEng.html",
+      "destination": "/personal-tarot.html",
+      "permanent": true
+    },
+    {
+      "source": "/indexEng.html",
+      "destination": "/tarot-speaks.html",
+      "permanent": true
+    },
+    {
+      "source": "/onlineCitanjeEng.html",
+      "destination": "/online-tarot-reading.html",
+      "permanent": true
+    },
+    {
+      "source": "/liveReading.html",
+      "destination": "/osobni-tarot.html",
+      "permanent": true
+    }
+  ]
+}
