@@ -6,6 +6,11 @@
       "permanent": true
     },
     {
+      "source": "/online%C4%8Citanje.html",
+      "destination": "/online-tarot.html",
+      "permanent": true
+    },
+    {
       "source": "/liveReadingEng.html",
       "destination": "/personal-tarot.html",
       "permanent": true
