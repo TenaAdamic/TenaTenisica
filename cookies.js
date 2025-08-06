@@ -1,11 +1,14 @@
-// Initialize dataLayer and gtag
+// GA4 Configuration
+const GA4_MEASUREMENT_ID = 'G-3CT3D1FJMP';
+
+// Initialize dataLayer and gtag BEFORE loading scripts
 window.dataLayer = window.dataLayer || [];
 function gtag() {
   dataLayer.push(arguments);
 }
 window.gtag = gtag;
 
-// IMPORTANT: Set default consent state BEFORE loading GTM
+// Set default consent state (denied) BEFORE loading GA4
 gtag("consent", "default", {
   ad_storage: "denied",
   analytics_storage: "denied",
@@ -14,22 +17,26 @@ gtag("consent", "default", {
   wait_for_update: 500
 });
 
-// Load GTM immediately (it will respect the consent state)
+// Load GA4 script immediately (will respect consent state)
 (function() {
-  // GTM Container
-  var gtmScript = document.createElement("script");
-  gtmScript.src = "https://www.googletagmanager.com/gtm.js?id=GTM-PBNW24MQ";
-  gtmScript.async = true;
-  document.head.appendChild(gtmScript);
+  var ga4Script = document.createElement("script");
+  ga4Script.src = "https://www.googletagmanager.com/gtag/js?id=" + GA4_MEASUREMENT_ID;
+  ga4Script.async = true;
+  document.head.appendChild(ga4Script);
   
-  // Add GTM noscript iframe
-  window.addEventListener('load', function() {
-    if (!document.querySelector('noscript iframe[src*="googletagmanager.com"]')) {
-      var noscript = document.createElement("noscript");
-      noscript.innerHTML = '<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PBNW24MQ" height="0" width="0" style="display:none;visibility:hidden"></iframe>';
-      document.body.insertBefore(noscript, document.body.firstChild);
-    }
-  });
+  ga4Script.onload = function() {
+    // Initialize GA4 with current timestamp
+    gtag('js', new Date());
+    
+    // Configure GA4 with consent mode support
+    gtag('config', GA4_MEASUREMENT_ID, {
+      'anonymize_ip': true,
+      'cookie_flags': 'SameSite=None;Secure',
+      'send_page_view': false // We'll send it manually after consent
+    });
+    
+    console.log("✅ GA4 loaded with Measurement ID:", GA4_MEASUREMENT_ID);
+  };
 })();
 
 function grantConsent() {
@@ -43,10 +50,17 @@ function grantConsent() {
     ad_personalization: "granted"
   });
   
-  // Fire a page_view event after consent is granted
+  // Send page_view event to GA4 after consent is granted
   gtag('event', 'page_view', {
-    'send_to': 'GTM-PBNW24MQ'
+    'send_to': GA4_MEASUREMENT_ID
   });
+  
+  // Also reconfigure GA4 to ensure tracking starts
+  gtag('config', GA4_MEASUREMENT_ID, {
+    'send_page_view': true
+  });
+  
+  console.log("✅ Analytics tracking enabled for:", GA4_MEASUREMENT_ID);
 }
 
 function denyConsent() {
