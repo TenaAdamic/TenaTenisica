@@ -250,10 +250,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.querySelector(".show-container").style.display = "flex";
 
-    window.scrollTo({
-      top: document.querySelector(".push-down").offsetTop,
-      behavior: "smooth",
-    });
+    // Scroll to the push-down-container or online-reading div
+    const scrollTarget = document.querySelector(".push-down-container") || document.querySelector(".online-reading");
+    if (scrollTarget) {
+      window.scrollTo({
+        top: scrollTarget.offsetTop,
+        behavior: "smooth",
+      });
+    }
   }
 
   // array s porukama
