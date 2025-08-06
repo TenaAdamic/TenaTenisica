@@ -1,0 +1,11 @@
+{
+  "folders": [
+	{
+		"name": "TarotNaMaksimiru",
+		"path": "../../RazniProjektići/TarotNaMaksimiru"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "TarotNaMaksimiru"
+  }
+}
