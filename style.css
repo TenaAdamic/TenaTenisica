@@ -279,6 +279,10 @@ h5 {
   align-items: center;
 }
 
+.text-part h1 {
+  text-align: center;
+}
+
 .text-part p {
   margin: 32px 32px;
   background-color: rgba(99, 102, 241, 0.3);
