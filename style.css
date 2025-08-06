@@ -1193,7 +1193,7 @@ h5 {
 .facing-card {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   gap: 4rem;
   margin: 2rem auto;
   width: 80%;
@@ -1203,6 +1203,16 @@ h5 {
   .facing-card {
     gap: 2rem;
   }
+}
+
+.card-interpretation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card-interpretation h3 {
+  margin-top: 0;
 }
 
 .card-interpretation p {
