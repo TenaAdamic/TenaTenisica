@@ -7,6 +7,10 @@ const texts = {
   },
 };
 
+// Temporarily disable orientation handling to fix the blank page issue
+// This feature needs to be implemented differently to avoid conflicts
+
+// Original comment preserved for reference:
 // Napravi click event na deck-back-img: kada se klikne, rest-of-back div se sakrije (display none), a spread-container postane vidljiv (opacity 1). Moram pomaknuti prvu kartu (spread-deck-back) na drugi kraj ekrana, desno (transition, transform, translate). Moram posložiti kako će ostale karte stajati u spread containeru (svaku pomaknuti u desno za 43px, zadnja ostaje na mjestu, dakle 20 karata mičem u desno (860: 20 = 43) ), tako da raširene karte odmah budu vidljive kada se klikne na deck-back-img
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -91,6 +95,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // 'spread-container' div with a fade-in effect
     spreadContainer.style.opacity = "1";
     displayPrompt.style.display = "flex";
+    
     const lang = document.querySelector("html").getAttribute("lang");
     displayPrompt.innerHTML = texts[lang].chooseSix;
 
@@ -444,3 +449,63 @@ document.querySelector(".slider-button").addEventListener("click", function () {
 
   targetSection.scrollIntoView({ behavior: "smooth" });
 });
+
+// Simple orientation handler for mobile devices
+(function() {
+  // Create and add rotation message element
+  const rotateMessage = document.createElement('div');
+  rotateMessage.className = 'rotate-message';
+  rotateMessage.innerHTML = `
+    <div class="rotate-message-icon">📱</div>
+    <h2>${document.documentElement.lang === 'hr' ? 'Rotiraj uređaj' : 'Rotate Your Device'}</h2>
+    <p>${document.documentElement.lang === 'hr' ? 
+      'Za bolje iskustvo, molimo okrenite uređaj u vodoravni položaj' : 
+      'For the best experience, please rotate your device to landscape mode'}</p>
+  `;
+  rotateMessage.style.display = 'none';
+  document.body.appendChild(rotateMessage);
+  
+  // Function to check if we should show rotation message
+  function checkOrientation() {
+    const spreadContainer = document.querySelector('.spread-container');
+    const displayPrompt = document.querySelector('.display-prompt');
+    const isMobile = window.innerWidth <= 768;
+    const isPortrait = window.innerHeight > window.innerWidth;
+    
+    // Check if spread-container is visible (opacity > 0)
+    const spreadVisible = spreadContainer && 
+      window.getComputedStyle(spreadContainer).opacity !== '0' && 
+      window.getComputedStyle(spreadContainer).opacity !== '';
+    
+    // Check if display-prompt is visible and has content
+    const promptVisible = displayPrompt && 
+      !displayPrompt.classList.contains('hidden') && 
+      displayPrompt.innerHTML.trim() !== '';
+    
+    // Show message if mobile, portrait, and either element is visible
+    if (isMobile && isPortrait && (spreadVisible || promptVisible)) {
+      rotateMessage.style.display = 'flex';
+    } else {
+      rotateMessage.style.display = 'none';
+    }
+  }
+  
+  // Check on various events
+  window.addEventListener('resize', checkOrientation);
+  window.addEventListener('orientationchange', checkOrientation);
+  
+  // Check when spread container or display prompt changes
+  const observer = new MutationObserver(checkOrientation);
+  const spreadContainer = document.querySelector('.spread-container');
+  const displayPrompt = document.querySelector('.display-prompt');
+  
+  if (spreadContainer) {
+    observer.observe(spreadContainer, { attributes: true, attributeFilter: ['style', 'class'] });
+  }
+  if (displayPrompt) {
+    observer.observe(displayPrompt, { childList: true, characterData: true, subtree: true });
+  }
+  
+  // Initial check
+  setTimeout(checkOrientation, 100);
+})();
