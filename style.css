@@ -60,10 +60,6 @@ body {
 }
 
 .homepage-background {
-  background-image: url(./images/Fade.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   height: 100%;
   width: 100%;
 }
@@ -264,10 +260,6 @@ h5 {
   align-items: center;
   /* background-color: #eee;  */
   height: auto;
-  background-image: url(./images/Fade.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   height: 100%;
   width: 100%;
 }
@@ -435,10 +427,6 @@ h5 {
 .fa-icons-section {
   /* background-color: #eee; */
   display: flex;
-  background-image: url(./images/Fade.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   height: 100%;
   width: 100%;
 }
@@ -470,10 +458,6 @@ h5 {
   border-radius: 8px;
   box-shadow: 0 0.125rem 0.313rem rgba(0, 0, 0, 0.1);
   /* background-color: #eee; */
-  background-image: url(./images/Fade.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   height: 100%;
   width: 100%;
 }
@@ -2363,10 +2347,6 @@ textarea {
 }
 
 .live-reading {
-  background-image: url(./images/Fade.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   height: 100%;
   width: 100%;
   display: flex;
@@ -2537,6 +2517,44 @@ textarea {
 .cc-window.cc-floating.cc-theme-classic {
   opacity: 0.3 !important;
   transform: scale(0.7) !important;
+}
+
+/* Remove all background images except for hero-section video */
+.homepage-background,
+.live-readings,
+.online-reading,
+.personalized-section,
+.middle-section,
+.live-reading,
+.slider,
+.hibiscus-background,
+.classic-background,
+.rozo-background,
+.show-container {
+  background-image: none !important;
+  background-color: white !important;
+}
+
+/* Set white background for homepage-background */
+.homepage-background {
+  background-color: white !important;
+}
+
+/* Set white background for all divs after hero-section */
+.hero-section ~ div {
+  background-color: white !important;
+}
+
+/* Set white background for testimonial and FAQ sections */
+.testimonial-section-padding,
+.faq-section {
+  background-color: white !important;
+}
+
+/* Preserve video background in hero-section */
+.hero-section,
+.hero-section * {
+  /* Allow video background */
 }
 
 .why-live-item dt {
@@ -2865,7 +2883,6 @@ textarea {
 .testimonial-section-padding {
   padding: 2rem 0;
   /* background-color: #eee; */
-  background-image: url(./images/Fade.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
