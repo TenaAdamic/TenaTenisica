@@ -3117,6 +3117,46 @@ textarea {
   text-decoration: none;
 }
 
+/* Landscape mode styles for online tarot pages - ONLY for small screens */
+@media screen and (max-width: 800px) and (orientation: landscape) {
+  /* Apply only to online tarot pages on small devices in landscape */
+  body.online-tarot-page .nav-container,
+  body.online-tarot-reading-page .nav-container {
+    height: 60px !important; /* Reduced from default height */
+    padding: 0.25rem 0 !important;
+  }
+  
+  body.online-tarot-page .nav-container img,
+  body.online-tarot-reading-page .nav-container img {
+    height: 50px !important; /* Reduced from 120px */
+  }
+  
+  /* Adjust the margin-top for content below navbar */
+  body.online-tarot-page .online-reading,
+  body.online-tarot-reading-page .online-reading {
+    margin-top: 60px !important; /* Match the new navbar height */
+  }
+  
+  /* For even smaller landscape screens (phones) */
+  @media (max-height: 500px) {
+    body.online-tarot-page .nav-container,
+    body.online-tarot-reading-page .nav-container {
+      height: 45px !important;
+      padding: 0.125rem 0 !important;
+    }
+    
+    body.online-tarot-page .nav-container img,
+    body.online-tarot-reading-page .nav-container img {
+      height: 40px !important;
+    }
+    
+    body.online-tarot-page .online-reading,
+    body.online-tarot-reading-page .online-reading {
+      margin-top: 45px !important;
+    }
+  }
+}
+
 .personalized-link-text:hover {
   color: var(--secondary-color);
 }
