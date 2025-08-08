@@ -2512,6 +2512,33 @@ textarea {
   }
 }
 
+/* Style the small square/rectangle in cookie consent banner */
+.cc-revoke,
+.cc-link.cc-revoke {
+  opacity: 0.3 !important;
+  transform: scale(0.7) !important;
+  transition: opacity 0.3s ease, transform 0.3s ease !important;
+  background: rgba(184, 169, 201, 0.5) !important;
+  font-size: 0.75rem !important;
+  padding: 0.3rem 0.6rem !important;
+}
+
+/* Make it slightly more visible on hover */
+.cc-revoke:hover,
+.cc-link.cc-revoke:hover {
+  opacity: 0.6 !important;
+  transform: scale(0.85) !important;
+}
+
+/* Keep the floating badge subtle */
+.cc-floating.cc-theme-classic,
+.cc-floating.cc-type-info,
+.cc-revoke.cc-bottom.cc-left,
+.cc-window.cc-floating.cc-theme-classic {
+  opacity: 0.3 !important;
+  transform: scale(0.7) !important;
+}
+
 .why-live-item dt {
   font-size: 0.875rem;
   font-weight: 600;
