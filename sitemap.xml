@@ -148,4 +148,92 @@
     <priority>0.30</priority>
   </url>
 
+  <!-- Croatian Blog Main Page -->
+  <url>
+    <loc>https://www.mimitarot.com/hr/blog.html</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://www.mimitarot.com/hr/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mimitarot.com/en/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mimitarot.com/"/>
+    <lastmod>2025-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <!-- English Blog Main Page -->
+  <url>
+    <loc>https://www.mimitarot.com/en/blog.html</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://www.mimitarot.com/hr/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mimitarot.com/en/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mimitarot.com/"/>
+    <lastmod>2025-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <!-- Croatian Blog Article: History of Tarot Cards -->
+  <url>
+    <loc>https://www.mimitarot.com/hr/blog-mimi-tarot-povijest-tarot-karata.html</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://www.mimitarot.com/hr/blog-mimi-tarot-povijest-tarot-karata.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mimitarot.com/en/blog-mimi-tarot-history-tarot-cards.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mimitarot.com/"/>
+    <lastmod>2025-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
+
+  <!-- English Blog Article: History of Tarot Cards -->
+  <url>
+    <loc>https://www.mimitarot.com/en/blog-mimi-tarot-history-tarot-cards.html</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://www.mimitarot.com/hr/blog-mimi-tarot-povijest-tarot-karata.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mimitarot.com/en/blog-mimi-tarot-history-tarot-cards.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mimitarot.com/"/>
+    <lastmod>2025-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
+
+  <!-- Croatian Blog Article: How to Prepare for Tarot Reading -->
+  <url>
+    <loc>https://www.mimitarot.com/hr/blog-mimi-tarot-priprema-za-citanje.html</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://www.mimitarot.com/hr/blog-mimi-tarot-priprema-za-citanje.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mimitarot.com/en/blog-mimi-tarot-prepare-tarot-reading.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mimitarot.com/"/>
+    <lastmod>2025-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
+
+  <!-- English Blog Article: How to Prepare for Tarot Reading -->
+  <url>
+    <loc>https://www.mimitarot.com/en/blog-mimi-tarot-prepare-tarot-reading.html</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://www.mimitarot.com/hr/blog-mimi-tarot-priprema-za-citanje.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mimitarot.com/en/blog-mimi-tarot-prepare-tarot-reading.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mimitarot.com/"/>
+    <lastmod>2025-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
+
+  <!-- Croatian Blog Article: Major Arcana Meanings -->
+  <url>
+    <loc>https://www.mimitarot.com/hr/blog-mimi-tarot-major-arcana-znacenje.html</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://www.mimitarot.com/hr/blog-mimi-tarot-major-arcana-znacenje.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mimitarot.com/en/blog-mimi-tarot-major-arcana-meaning.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mimitarot.com/"/>
+    <lastmod>2025-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
+
+  <!-- English Blog Article: Major Arcana Meanings -->
+  <url>
+    <loc>https://www.mimitarot.com/en/blog-mimi-tarot-major-arcana-meaning.html</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://www.mimitarot.com/hr/blog-mimi-tarot-major-arcana-znacenje.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mimitarot.com/en/blog-mimi-tarot-major-arcana-meaning.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mimitarot.com/"/>
+    <lastmod>2025-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
+
 </urlset>

@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Meaning of the Major Arcana | Mimi Tarot</title>
+    <link
+      rel="canonical"
+      href="https://www.mimitarot.com/en/blog-mimi-tarot-major-arcana-meaning.html"
+    />
+    <link
+      rel="alternate"
+      hreflang="hr"
+      href="https://www.mimitarot.com/hr/blog-mimi-tarot-major-arcana-znacenje.html"
+    />
+    <link
+      rel="alternate"
+      hreflang="en"
+      href="https://www.mimitarot.com/en/blog-mimi-tarot-major-arcana-meaning.html"
+    />
+    <link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://www.mimitarot.com/"
+    />
+    <meta
+      name="description"
+      content="From The Fool to The World, each card is a lesson, each symbol a wake-up call that life’s the wildest ritual of all. Tarot, raw and unapologetic."
+    />
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+        .article-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            line-height: 1.7;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--main-color);
+            text-decoration: none;
+            font-weight: 500;
+            margin-bottom: 2rem;
+            transition: color 0.3s ease;
+        }
+
+        .back-link:hover {
+            color: #5a2569;
+        }
+
+        .article-header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding: 2rem 0;
+        }
+
+        .article-title {
+            font-size: 2.5rem;
+            color: var(--main-color);
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        .article-meta {
+            color: #666;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+
+        .article-content {
+            font-size: 1.1rem;
+            color: #333;
+        }
+
+        .article-content h2 {
+            color: var(--main-color);
+            font-size: 1.8rem;
+            margin: 2.5rem 0 1rem 0;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #e8d5f0;
+        }
+
+        .article-content h3 {
+            color: var(--main-color);
+            font-size: 1.4rem;
+            margin: 2rem 0 1rem 0;
+        }
+
+        .article-content p {
+            margin-bottom: 1.5rem;
+            text-align: justify;
+        }
+
+        .article-content ul, .article-content ol {
+            margin-bottom: 1.5rem;
+            padding-left: 2rem;
+        }
+
+        .article-content li {
+            margin-bottom: 0.5rem;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #f8f4fd 0%, #e8d5f0 100%);
+            border-left: 4px solid var(--main-color);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .timeline-box {
+            background: #fff;
+            border: 2px solid #e8d5f0;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .timeline-box h3 {
+            color: var(--main-color);
+            margin-top: 0;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+
+        .tip-box {
+            background: #f0f8ff;
+            border-left: 4px solid #4a90e2;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 8px;
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .card-box {
+            background: white;
+            border: 2px solid #e8d5f0;
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card-box:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+
+        .card-box h3 {
+            color: var(--main-color);
+            margin-top: 0;
+            font-size: 1.2rem;
+        }
+
+        .card-number {
+            font-weight: 700;
+            color: var(--main-color);
+            font-size: 1.1rem;
+            margin-bottom: 0.8rem;
+            border-bottom: 1px solid #e8d5f0;
+            padding-bottom: 0.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .article-container {
+                padding: 1rem;
+            }
+
+            .article-title {
+                font-size: 2rem;
+            }
+
+            .article-content {
+                font-size: 1rem;
+            }
+
+            .article-content h2 {
+                font-size: 1.5rem;
+            }
+
+            .article-content h3 {
+                font-size: 1.3rem;
+            }
+
+            .highlight-box, .timeline-box, .tip-box {
+                padding: 1rem;
+                margin: 1.5rem 0;
+            }
+
+            .card-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+
+    <!-- CookieConsent CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/d7bacd7858.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="nav-container">
+      <a href="./">
+        <img
+          src="./images/Mimi_logo.png"
+          height="120px"
+          alt="Tarot reading in Maksimir"
+        />
+      </a>
+      <ul class="nav-list">
+        <li><a href="./online-tarot-reading.html">Online Tarot</a></li>
+        <li><a href="./personal-tarot.html">Live Tarot</a></li>
+        <li><a href="./blog.html">Blog</a></li>
+      </ul>
+      <div class="language-container">
+        <a
+          href="/hr/blog-mimi-tarot-major-arcana-znacenje.html"
+          class="english"
+        >
+          <img
+            src="./images/hr.svg"
+            alt="Croatian"
+            class="language-img"
+            style="width: 2rem; border-radius: 5px"
+          />
+        </a>
+      </div>
+    </nav>
+
+    <div class="homepage-background">
+      <div class="article-container">
+        <a href="./blog.html" class="back-link">
+          <i class="fa-solid fa-arrow-left"></i>
+          Back to blog
+        </a>
+
+        <div class="article-header">
+          <h1 class="article-title">The Meaning of the Major Arcana</h1>
+          <div class="article-meta">
+            <i class="fa-solid fa-clock"></i> 6 min read
+          </div>
+        </div>
+
+        <div class="article-content">
+          <div class="highlight-box">
+            <p>
+              <strong
+                >The Major Arcana consists of 22 cards representing major life
+                lessons, spiritual development, and significant life changes.
+                Each card carries deep symbolism and powerful messages.</strong
+              >
+            </p>
+          </div>
+
+          <h2>What is the Major Arcana?</h2>
+          <p>
+            The Major Arcana are the heart of the tarot deck. These 22 cards
+            represent the soul's journey through life, known as the "Hero's
+            Journey" or "The Fool's Journey." From innocence to wisdom, each
+            card marks a key phase of spiritual development.
+          </p>
+
+          <h3>Why is the Major Arcana Special?</h3>
+          <ul>
+            <li>Represents major life themes and archetypes</li>
+            <li>Carries stronger energy than Minor Arcana cards</li>
+            <li>Often indicates fateful or transformative moments</li>
+            <li>Connected to spiritual development and inner growth</li>
+          </ul>
+
+          <h2>The Journey Through the Major Arcana</h2>
+
+          <div class="card-grid">
+            <div class="card-box">
+              <div class="card-number">0 - The Fool</div>
+              <p>
+                <strong>New beginnings, innocence, spontaneity</strong><br />
+                The Fool represents pure potential and courage to venture into
+                the unknown. Symbolizes faith, optimism, and childlike
+                curiosity.
+              </p>
+            </div>
+
+            <div class="card-box">
+              <div class="card-number">I - The Magician</div>
+              <p>
+                <strong>Manifestation, will, focus</strong><br />
+                The Magician has all necessary tools to achieve goals.
+                Represents the power of concentration and ability to turn ideas
+                into reality.
+              </p>
+            </div>
+
+            <div class="card-box">
+              <div class="card-number">II - The High Priestess</div>
+              <p>
+                <strong>Intuition, subconscious, wisdom</strong><br />
+                Guardian of secrets and inner wisdom. Calls for listening to
+                intuition and trusting inner knowledge.
+              </p>
+            </div>
+
+            <div class="card-box">
+              <div class="card-number">III - The Empress</div>
+              <p>
+                <strong>Fertility, creativity, motherhood</strong><br />
+                Symbolizes creative energy, nurturing, and abundant fertility.
+                Connected to nature and feminine energy.
+              </p>
+            </div>
+
+            <div class="card-box">
+              <div class="card-number">IV - The Emperor</div>
+              <p>
+                <strong>Authority, structure, leadership</strong><br />
+                Represents stability, order, and masculine principle. The
+                Emperor sets boundaries and brings security through structure.
+              </p>
+            </div>
+
+            <div class="card-box">
+              <div class="card-number">V - The Hierophant</div>
+              <p>
+                <strong>Tradition, spirituality, teaching</strong><br />
+                Spiritual teacher who transmits sacred teachings. Symbolizes
+                orthodox spirituality and traditional values.
+              </p>
+            </div>
+
+            <div class="card-box">
+              <div class="card-number">VI - The Lovers</div>
+              <p>
+                <strong>Love, choice, partnership</strong><br />
+                Represents deep emotional connections and important life
+                decisions. Speaks of harmony and meaningful choices.
+              </p>
+            </div>
+
+            <div class="card-box">
+              <div class="card-number">VII - The Chariot</div>
+              <p>
+                <strong>Victory, determination, control</strong><br />
+                Symbolizes success through discipline and strong will.
+                Represents moving forward and overcoming obstacles.
+              </p>
+            </div>
+
+            <div class="card-box">
+              <div class="card-number">VIII - Strength</div>
+              <p>
+                <strong>Inner strength, courage, patience</strong><br />
+                True strength comes from within. Represents gentle power,
+                compassion, and overcoming fear through love.
+              </p>
+            </div>
+
+            <div class="card-box">
+              <div class="card-number">IX - The Hermit</div>
+              <p>
+                <strong>Introspection, seeking truth, wisdom</strong><br />
+                Call for inner journey and seeking spiritual answers. Time for
+                solitude and reflection.
+              </p>
+            </div>
+
+            <div class="card-box">
+              <div class="card-number">X - Wheel of Fortune</div>
+              <p>
+                <strong>Destiny, changes, cycles</strong><br />
+                Reminds us that everything changes. Symbolizes karma, luck, and
+                natural cycles of life.
+              </p>
+            </div>
+
+            <div class="card-box">
+              <div class="card-number">XI - Justice</div>
+              <p>
+                <strong>Balance, fairness, truth</strong><br />
+                Represents karma in action. Speaks of fair play, responsibility,
+                and consequences of our actions.
+              </p>
+            </div>
+
+            <div class="card-box">
+              <div class="card-number">XII - The Hanged Man</div>
+              <p>
+                <strong>Surrender, new perspective, sacrifice</strong><br />
+                Time for pausing and seeing things from a new perspective.
+                Represents voluntary sacrifice for greater good.
+              </p>
+            </div>
+
+            <div class="card-box">
+              <div class="card-number">XIII - Death</div>
+              <p>
+                <strong>Transformation, ending, new beginning</strong><br />
+                Rarely represents physical death, but radical transformation.
+                End of one life phase for a new one to be born.
+              </p>
+            </div>
+
+            <div class="card-box">
+              <div class="card-number">XIV - Temperance</div>
+              <p>
+                <strong>Balance, harmony, healing</strong><br />
+                Call for finding middle ground and creating harmony among
+                opposites. Gradual transformation.
+              </p>
+            </div>
+
+            <div class="card-box">
+              <div class="card-number">XV - The Devil</div>
+              <p>
+                <strong>Limitations, addictions, material</strong><br />
+                Represents our inner chains and limiting beliefs. Reminds us
+                that many limitations are just illusions.
+              </p>
+            </div>
+
+            <div class="card-box">
+              <div class="card-number">XVI - The Tower</div>
+              <p>
+                <strong>Destruction, awakening, liberation</strong><br />
+                Sudden change that tears down old structures. Though painful,
+                brings necessary liberation from false foundations.
+              </p>
+            </div>
+
+            <div class="card-box">
+              <div class="card-number">XVII - The Star</div>
+              <p>
+                <strong>Hope, inspiration, healing</strong><br />
+                Brings hope after difficulties. Represents spiritual renewal,
+                inspiration, and belief in a better tomorrow.
+              </p>
+            </div>
+
+            <div class="card-box">
+              <div class="card-number">XVIII - The Moon</div>
+              <p>
+                <strong>Illusions, fears, subconscious</strong><br />
+                Calls for confronting subconscious fears. Represents time of
+                uncertainty and need for intuition.
+              </p>
+            </div>
+
+            <div class="card-box">
+              <div class="card-number">XIX - The Sun</div>
+              <p>
+                <strong>Joy, success, vitality</strong><br />
+                One of the most positive cards. Represents happiness, success,
+                vitality, and childlike joy.
+              </p>
+            </div>
+
+            <div class="card-box">
+              <div class="card-number">XX - Judgement</div>
+              <p>
+                <strong>Assessment, renewal, calling</strong><br />
+                Time for evaluating the past and preparing for a new life cycle.
+                Represents spiritual awakening.
+              </p>
+            </div>
+
+            <div class="card-box">
+              <div class="card-number">XXI - The World</div>
+              <p>
+                <strong>Completion, achievement, wholeness</strong><br />
+                Completion of the Fool's journey. Represents total fulfillment,
+                success, and spiritual wholeness.
+              </p>
+            </div>
+          </div>
+
+          <h2>How to Interpret Major Arcana Cards</h2>
+
+          <h3>In Readings</h3>
+          <ul>
+            <li>
+              <strong>More Major Arcana cards</strong> - Indicates important
+              life themes and destined events
+            </li>
+            <li>
+              <strong>Fewer Major Arcana cards</strong> - Focus on everyday
+              situations and practical problems
+            </li>
+            <li>
+              <strong>Card sequence</strong> - Can show phases of development or
+              spiritual journey
+            </li>
+          </ul>
+
+          <h3>Key Interpretation Guidelines</h3>
+          <ul>
+            <li>View the card in context of the question</li>
+            <li>Pay attention to symbols and colors</li>
+            <li>Trust your intuition</li>
+            <li>Consider personal connection to the card</li>
+          </ul>
+
+          <div class="highlight-box">
+            <h3>Beginner's Tip</h3>
+            <p>
+              Start with basic meanings, and over time you'll develop deeper
+              understanding of symbolism. Each card can have different meanings
+              depending on context and your life situation.
+            </p>
+          </div>
+
+          <h2>Reversed Major Arcana Cards</h2>
+          <p>When a Major Arcana card appears reversed, it may mean:</p>
+          <ul>
+            <li>Internal process instead of external manifestation</li>
+            <li>Blocked energy of the card</li>
+            <li>Excessive or insufficient energy of the card</li>
+            <li>Need for greater focus on that life lesson</li>
+          </ul>
+
+          <h2>The Fool's Journey in Detail</h2>
+          <p>The Major Arcana tells the story of spiritual evolution:</p>
+
+          <h3>Act I: Material World (0-7)</h3>
+          <p>
+            The first seven cards represent our interaction with the physical
+            world and development of ego consciousness.
+          </p>
+
+          <h3>Act II: Inner Development (8-14)</h3>
+          <p>
+            The middle section focuses on inner growth, challenges, and
+            spiritual awakening.
+          </p>
+
+          <h3>Act III: Spiritual Realization (15-21)</h3>
+          <p>
+            The final cards represent confronting shadow, finding truth, and
+            achieving spiritual completion.
+          </p>
+
+          <h2>Working with Major Arcana Energy</h2>
+
+          <h3>Meditation and Reflection</h3>
+          <ul>
+            <li>Choose a card that resonates with your current situation</li>
+            <li>Meditate on its imagery and symbolism</li>
+            <li>Journal about how the card's energy manifests in your life</li>
+            <li>Set intentions based on the card's lessons</li>
+          </ul>
+
+          <h3>Personal Development</h3>
+          <ul>
+            <li>Identify which Major Arcana energies you need to develop</li>
+            <li>Work consciously with challenging card energies</li>
+            <li>Use card wisdom for decision-making</li>
+            <li>Track your journey through the Major Arcana</li>
+          </ul>
+
+          <h2>Conclusion</h2>
+          <p>
+            The Major Arcana cards are a profound guide through the life journey
+            of every soul. They remind us that we are all on a unique path of
+            growth and development, and that every challenge carries valuable
+            lessons.
+          </p>
+
+          <p>
+            Through understanding these archetypes, we can better recognize the
+            phases we go through in life and find the wisdom needed for our
+            spiritual development. The Major Arcana aren't just cards - they are
+            mirrors of our soul and guides toward higher consciousness.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="copyright">
+        <div class="social-media">
+          <a href="https://www.instagram.com/mimitarotbastet/">
+            <i class="fa-brands fa-instagram" style="color: #5a2569"></i>
+          </a>
+        </div>
+        <span>© 2025 Mimi Tarot. All rights reserved.</span>
+      </div>
+
+      <div class="legal">
+        <a href="./privacy-policy.html">Privacy Policy</a>
+        <a href="./terms-conditions.html">Terms & Conditions</a>
+        <a href="./cookie-policy.html">Cookie Policy</a>
+      </div>
+    </footer>
+
+    <!-- CookieConsent JS -->
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+    <script src="cookies.js"></script>
+  </body>
+</html>
