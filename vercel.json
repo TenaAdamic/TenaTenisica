@@ -2,32 +2,92 @@
   "redirects": [
     {
       "source": "/onlineČitanje.html",
-      "destination": "/online-tarot.html",
+      "destination": "/hr/online-tarot.html",
       "permanent": true
     },
     {
       "source": "/online%C4%8Citanje.html",
-      "destination": "/online-tarot.html",
+      "destination": "/hr/online-tarot.html",
       "permanent": true
     },
     {
       "source": "/liveReadingEng.html",
-      "destination": "/personal-tarot.html",
+      "destination": "/en/personal-tarot.html",
       "permanent": true
     },
     {
       "source": "/indexEng.html",
-      "destination": "/tarot-speaks.html",
+      "destination": "/en/",
       "permanent": true
     },
     {
       "source": "/onlineCitanjeEng.html",
-      "destination": "/online-tarot-reading.html",
+      "destination": "/en/online-tarot-reading.html",
       "permanent": true
     },
     {
       "source": "/liveReading.html",
-      "destination": "/osobni-tarot.html",
+      "destination": "/hr/osobni-tarot.html",
+      "permanent": true
+    },
+    {
+      "source": "/osobni-tarot.html",
+      "destination": "/hr/osobni-tarot.html",
+      "permanent": true
+    },
+    {
+      "source": "/online-tarot.html",
+      "destination": "/hr/online-tarot.html",
+      "permanent": true
+    },
+    {
+      "source": "/politika-privatnosti.html",
+      "destination": "/hr/politika-privatnosti.html",
+      "permanent": true
+    },
+    {
+      "source": "/politika-kolacica.html",
+      "destination": "/hr/politika-kolacica.html",
+      "permanent": true
+    },
+    {
+      "source": "/uvjeti-koristenja.html",
+      "destination": "/hr/uvjeti-koristenja.html",
+      "permanent": true
+    },
+    {
+      "source": "/pravila-privatnosti.html",
+      "destination": "/hr/politika-privatnosti.html",
+      "permanent": true
+    },
+    {
+      "source": "/tarot-speaks.html",
+      "destination": "/en/",
+      "permanent": true
+    },
+    {
+      "source": "/personal-tarot.html",
+      "destination": "/en/personal-tarot.html",
+      "permanent": true
+    },
+    {
+      "source": "/online-tarot-reading.html",
+      "destination": "/en/online-tarot-reading.html",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy.html",
+      "destination": "/en/privacy-policy.html",
+      "permanent": true
+    },
+    {
+      "source": "/cookie-policy.html",
+      "destination": "/en/cookie-policy.html",
+      "permanent": true
+    },
+    {
+      "source": "/terms-conditions.html",
+      "destination": "/en/terms-conditions.html",
       "permanent": true
     }
   ]
