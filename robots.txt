@@ -1,3 +1,28 @@
+# Robots.txt for www.mimitarot.com
+# Last updated: 2025
+
+# Allow all crawlers
 User-agent: *
-Disallow:
+Allow: /
+Allow: /hr/
+Allow: /en/
+
+# Disallow administrative and private areas (if they exist)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /cache/
+Disallow: /.git/
+
+# Block specific files
+Disallow: /*.py$
+Disallow: /*.pyc$
+Disallow: /*.log$
+Disallow: /*.sql$
+Disallow: /*.zip$
+
+# Crawl delay (in seconds) - be respectful to server resources
+Crawl-delay: 1
+
+# Sitemap location
 Sitemap: https://www.mimitarot.com/sitemap.xml

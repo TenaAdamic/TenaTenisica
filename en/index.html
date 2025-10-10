@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mimi Tarot – Online & Personal Readings</title>
+        <link rel="canonical" href="https://www.mimitarot.com/en/" />
+    <link rel="alternate" hreflang="hr" href="https://www.mimitarot.com/hr/" />
+    <link rel="alternate" hreflang="en" href="https://www.mimitarot.com/en/" />
+    <link rel="alternate" hreflang="x-default" href="https://www.mimitarot.com/" />
+    <meta name="description" content="Instant free tarot readings or live sessions in Maksimir Park. No drama, just clarity, connection, and a little bit of everyday magic.">
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="stylesheet" href="style.css">
+     <!-- CookieConsent CSS -->
+     <link
+     rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css"
+   />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Koulen&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Koulen&display=swap" rel="stylesheet">
+<link rel="prefetch" href="/images/Hibiscus.png" />
+<script src="https://kit.fontawesome.com/d7bacd7858.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+   
+     
+    
+        
+        <nav class="nav-container">
+          <img src="./images/Mimi_logo.png" height="120px" alt="Čitanje tarota na Maksimiru" >
+
+            <ul class="nav-list">
+                <li><a href="./online-tarot-reading.html">Online Tarot</a></li>
+                <li><a href="./personal-tarot.html">Live Tarot</a></li>   
+            </ul>
+
+            <div class="language-container">
+                <a href="/hr/" class="english">
+                  <img src="./images/hr.svg" alt="Croatian" class="language-img" style="width: 2rem; border-radius: 5px;">
+                </a>
+            </div>
+        </nav>
+    
+
+
+        <div class="hero-section">
+            <div class="home-intro">
+                <video autoplay muted loop id="backgroundVideo">
+                    <source src="./images/Video.mp4" type="video/mp4">
+                    Your browser does not support HTML5 video.
+                </video>
+            
+                <h1 class="hero-h1">Tarot speaks</h1>
+                <h2 class="home-intro-h2">Cut through the chaos and find your calm</h2>
+               <a href="./online-tarot-reading.html"><button class="cta-button-home" style="margin: 2rem auto;">Dive In</button></a> 
+                <h2 class="home-intro-h2">Free Online Tarot Reading? Yesss.</h2>
+            </div>
+    
+
+        </div>
+
+        <div class="homepage-background">
+
+            <div class="middle-section">
+                <div class="home-intro">
+    
+                    <div class="hero2" style=" background-color: rgba(99, 102, 241, 0.3); border-radius: 1rem; padding: 2rem;">
+                    <h1>Why Mimi Tarot</h1>
+                    <p>Free online tarot readings you can summon instantly, no rituals, no fuss. Just you and the wild, ancient archetypes ready to spill their secrets. Craving a deeper dive? Mimi offers personal sessions, online or, better yet, live in the enchanted Maksimir Park. These readings are pure magic: zen vibes, raw truth, and a sprinkle of mystery. Show up with your questions, leave with your mind alight. Book your ritual.</p>
+                    </div>
+    
+    
+                    <hr class="styled-hr">
+    
+    
+                    
+    
+                        
+    
+                     </div>
+        
+                </div>
+            </div>
+    
+       
+    
+            <div class="live-readings">
+                <div class="text-part">
+                    <h1>Tarot Readings in Maksimir</h1>
+                    <p>If clicking on screens doesn’t do it for you and you want something real, come experience a live tarot reading in Maksimir. Just the cards, you, me, and nature. Reach out for private sessions, and together we’ll uncover what you’ve been avoiding for too long.</p>
+                    <button class="booking-button" id="tena">Book a Session</button>
+                </div>
+    
+                <div class="image-part">
+                    <img src="./images/tarot_sesije_u_maksimiru.jpg" height="380px" alt="Pridružite se tarot čitanjima uživo u Maksimiru" class="maksimir-slika">
+                </div>
+                
+    
+            </div>
+
+            <!-- Modal for bookings (homepage) -->
+    
+            <div style="display: none;" class="modal-content">
+                <span class="close">&times;</span>
+                <div class="modal-container">
+                    <h2>Book a Session</h2>
+                    <p style="font-weight: 400;">Send a message,<br>we'll get back to you within 24 hours to schedule a session.</p>
+                    <form id="form-content" action="https://getform.io/f/bejykyna" method="POST">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <br>
+                        <label  for="message">Message:</label>
+                        <textarea id="message" name="message" maxlength="200" placeholder="Leave your message here..." required style="margin: 8px; padding: 12px 20px;"></textarea>
+                        <br>
+                        <button style="margin-top: 3vh;" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+            
+    
+            
+
+            
+     
+        <hr class="styled-hr">
+    
+        <div class="testimonial-section-padding">
+            <div class="testimonial-container">
+                <div class="testimonial-section-title">
+                    <h1>What Those Who Tried Say</h1>
+                    
+                </div>
+    
+                <div class="client-testimonial-carousel" id="testimonial-carousel">
+                    <div class="single-testimonial-item">
+                        <p style="margin-bottom: 1rem;">I had a major dilemma regarding work and wasn’t sure whether to accept a new offer or stay where I was. Mimi clearly saw both options through the tarot cards and helped me see things from a new perspective. After the reading, I felt much more confident in my decision, and I ultimately chose the path that brings me more fulfillment. Thank you, Mimi, for the guidance and for helping me feel more at peace about the future!</p>
+                        <h3 style="margin-bottom: 16px;">Marina, 37</h3>
+                    </div>
+                    <div class="single-testimonial-item">
+                        <p style="margin-bottom: 1rem;">I went to Mimi because I was going through a rough time in my relationship, and honestly, I didn’t expect tarot to reveal so much. Mimi accurately described how my partner was feeling and what was really behind our disagreements. Through the reading, I understood where we were going wrong and how we could improve our relationship. I was surprised at how precise and helpful everything was. I would recommend everyone contact Mimi if they need clarity in their relationships!</p>
+                        <h3 style="margin-bottom: 1rem;">Vesna, 44 </h3>
+                    </div>
+                    <div class="single-testimonial-item">
+                        <p style="margin-bottom: 1rem;">I went to Mimi because I felt lost regarding a long-term friendship that had become toxic. Mimi clearly showed me through the cards that I was giving too much and that it was time for changes. She not only guided me but gave concrete advice on how to emotionally protect myself and set boundaries. After that, the relationships in my life significantly improved.</p>
+                        <h3 style="margin-bottom: 1rem;">Nina, 62</h3>
+                    </div>
+                    <div class="single-testimonial-item">
+                        <p style="margin-bottom: 1rem;">I struggled with anxiety and a sense of being lost, so I decided to try a reading with Mimi to gain some direction. Through the cards, she showed me what was blocking me, why I felt that way, and what I could do to regain control of my life. After the reading, I started applying her advice, and slowly, I found my inner peace again. Mimi was so compassionate and understanding, she truly guided me onto the right path.</p>
+                        <h3 style="margin-bottom: 1rem;">Mihael, 29</h3>
+                    </div>
+                </div>
+                <div class="carousel-dots" id="carousel-dots"></div>
+            </div>
+        </div>
+    
+        <hr class="styled-hr">
+    
+        <div class="fa-icons-section">
+           
+            <div class="fa-icon">
+                <i class="fa-solid fa-hand-sparkles" style="color: #622569; font-size: 3rem;"></i>
+                <p>Let’s explore together what the cards are telling you.</p>
+            </div>
+    
+            <div class="fa-icon">
+                <i class="fa-solid fa-user-secret" style="color: #622569; font-size: 3rem;"></i>
+                <p>Don’t worry about privacy, all our conversations and tarot readings are completely discreet and anonymous.</p>
+            </div>
+    
+            <div class="fa-icon">
+                <i class="fa-solid fa-puzzle-piece" style="color: #622569; font-size: 3rem;"></i>
+                <p>If you want to uncover answers to your deepest questions, I’m here to help you connect with yourself and your inner world.</p>
+    
+            </div>
+    
+            <div class="fa-icon">
+                <i class="fa-brands fa-discourse" style="color: #622569; font-size: 3rem;"></i>
+                <p>Enjoy a discreet conversation without fear of judgment.</p>
+    
+            </div>
+        </div>
+    
+        <hr class="styled-hr">
+    
+        <!-- FAQ Section -->
+    
+        <div class="faq-section" id="targetFaqSection">
+            <h1 style="text-align: center; margin-bottom: 4rem;">Frequently Asked Questions About Tarot</h1>
+            <div class="accordion-item">
+                <h6 class="accordion-header">
+                    <button class="accordion-button" data-collapse-target="collapse-1">
+                        <span style="color: #622569;">Can Tarot Predict the Future?</span>
+                        <i class="chevron fa-solid fa-chevron-down"  style="color: #622569;"></i>
+                    </button>
+                </h6>
+                <div id="collapse-1" class="accordion-content">
+                    <p>Tarot cannot predict the future with certainty, but it can provide insights into possible directions and assist in decision-making. Through symbols and archetypes, a tarot reading can reflect your current situation and offer perspectives for reflection.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h6 class="accordion-header">
+                    <button class="accordion-button" data-collapse-target="collapse-2">
+                        <span style="color: #622569;" >How Long Does a Tarot Reading Last?</span>
+                        <i class="chevron fa-solid fa-chevron-down"  style="color: #622569;"></i>
+                    </button>
+                </h6>
+                <div id="collapse-2" class="accordion-content">
+                    <p>The length of a tarot reading can vary, but it usually lasts between 30 minutes and 1 hour, depending on the complexity of the questions and the number of cards used.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h6 class="accordion-header">
+                    <button class="accordion-button" data-collapse-target="collapse-3">
+                        <span style="color: #622569;">Can I Ask a Question to the Tarot for Someone Else?</span>
+                        <i class="chevron fa-solid fa-chevron-down"  style="color: #622569;"></i>
+                    </button>
+                </h6>
+                <div id="collapse-3" class="accordion-content">
+                    <p>Yes, you can ask a question about someone else in tarot, but it’s important that you have their permission or that they are aware and agreeable to what the tarot is being asked. Tarot readings are often most accurate when the person is directly involved and focused on their own questions.</p>
+                </div>
+                </div>
+                <div class="accordion-item">
+                    <h6 class="accordion-header">
+                        <button class="accordion-button" data-collapse-target="collapse-4">
+                            <span style="color: #622569;">Are there any questions we shouldn’t ask?</span>
+                            <i class="chevron fa-solid fa-chevron-down"  style="color: #622569;"></i>
+                        </button>
+                    </h6>
+                    <div id="collapse-4" class="accordion-content">
+                        <p>Yes, there are certain questions that are generally not asked in tarot readings. For example, questions regarding precise timeframes, the future of others without their permission, death or serious health conditions, criminal activities, and the results of games of chance or gambling. Tarot is best used for exploring personal decisions, inner guidance, and personal growth, rather than predicting specific future events or resolving ethically sensitive issues.</p>
+                    </div>
+                </div>
+                </div>
+    
+        <!-- The end of the FAQ section -->
+    
+        <hr class="styled-hr">
+
+        </div>
+
+        
+
+        <footer>
+            <div class="copyright">
+                <div class="social-media">
+                    <a href="https://www.instagram.com/mimitarotbastet/"> <i class="fa-brands fa-instagram" style="color: #5a2569;" ></i></a>
+    
+                   
+                </div>
+                <span>© 2025 Mimi Tarot. All rights reserved.</span>
+            </div>
+    
+            <div class="legal">
+                <a href="./privacy-policy.html">Privacy Policy</a>
+                <a href="./terms-conditions.html">Terms & Conditions</a>
+                <a href="./cookie-policy.html">Cookie Policy</a>
+              </div>
+            
+        </footer>
+
+      <!-- CookieConsent JS -->
+      <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+
+
+     <script src="cookies.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>

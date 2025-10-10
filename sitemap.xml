@@ -1,47 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
+  <!-- Root/Language Selector Page -->
+  <url>
+    <loc>https://www.mimitarot.com/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://www.mimitarot.com/hr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mimitarot.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mimitarot.com/"/>
+    <lastmod>2025-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.00</priority>
+  </url>
 
-<url>
-  <loc>https://www.mimitarot.com/</loc>
-  <lastmod>2025-06-12T12:44:41+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.mimitarot.com/online-tarot.html</loc>
-  <lastmod>2025-06-12T12:44:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.mimitarot.com/osobni-tarot.html</loc>
-  <lastmod>2025-06-12T12:44:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.mimitarot.com/tarot-speaks.html</loc>
-  <lastmod>2025-06-12T12:44:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.mimitarot.com/index.html</loc>
-  <lastmod>2025-06-12T12:44:42+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.mimitarot.com/online-tarot-reading.html</loc>
-  <lastmod>2025-06-12T12:44:43+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.mimitarot.com/personal-tarot.html</loc>
-  <lastmod>2025-06-12T12:44:43+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+  <!-- Croatian Homepage -->
+  <url>
+    <loc>https://www.mimitarot.com/hr/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://www.mimitarot.com/hr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mimitarot.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mimitarot.com/"/>
+    <lastmod>2025-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
 
+  <!-- English Homepage -->
+  <url>
+    <loc>https://www.mimitarot.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://www.mimitarot.com/hr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mimitarot.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mimitarot.com/"/>
+    <lastmod>2025-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- Croatian Online Tarot -->
+  <url>
+    <loc>https://www.mimitarot.com/hr/online-tarot.html</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://www.mimitarot.com/hr/online-tarot.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mimitarot.com/en/online-tarot-reading.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mimitarot.com/"/>
+    <lastmod>2025-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- English Online Tarot -->
+  <url>
+    <loc>https://www.mimitarot.com/en/online-tarot-reading.html</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://www.mimitarot.com/hr/online-tarot.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mimitarot.com/en/online-tarot-reading.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mimitarot.com/"/>
+    <lastmod>2025-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Croatian Personal Tarot -->
+  <url>
+    <loc>https://www.mimitarot.com/hr/osobni-tarot.html</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://www.mimitarot.com/hr/osobni-tarot.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mimitarot.com/en/personal-tarot.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mimitarot.com/"/>
+    <lastmod>2025-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- English Personal Tarot -->
+  <url>
+    <loc>https://www.mimitarot.com/en/personal-tarot.html</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://www.mimitarot.com/hr/osobni-tarot.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mimitarot.com/en/personal-tarot.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mimitarot.com/"/>
+    <lastmod>2025-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Croatian Privacy Policy -->
+  <url>
+    <loc>https://www.mimitarot.com/hr/politika-privatnosti.html</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://www.mimitarot.com/hr/politika-privatnosti.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mimitarot.com/en/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mimitarot.com/"/>
+    <lastmod>2025-10-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.30</priority>
+  </url>
+
+  <!-- English Privacy Policy -->
+  <url>
+    <loc>https://www.mimitarot.com/en/privacy-policy.html</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://www.mimitarot.com/hr/politika-privatnosti.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mimitarot.com/en/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mimitarot.com/"/>
+    <lastmod>2025-10-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.30</priority>
+  </url>
+
+  <!-- Croatian Cookie Policy -->
+  <url>
+    <loc>https://www.mimitarot.com/hr/politika-kolacica.html</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://www.mimitarot.com/hr/politika-kolacica.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mimitarot.com/en/cookie-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mimitarot.com/"/>
+    <lastmod>2025-10-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.30</priority>
+  </url>
+
+  <!-- English Cookie Policy -->
+  <url>
+    <loc>https://www.mimitarot.com/en/cookie-policy.html</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://www.mimitarot.com/hr/politika-kolacica.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mimitarot.com/en/cookie-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mimitarot.com/"/>
+    <lastmod>2025-10-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.30</priority>
+  </url>
+
+  <!-- Croatian Terms and Conditions -->
+  <url>
+    <loc>https://www.mimitarot.com/hr/uvjeti-koristenja.html</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://www.mimitarot.com/hr/uvjeti-koristenja.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mimitarot.com/en/terms-conditions.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mimitarot.com/"/>
+    <lastmod>2025-10-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.30</priority>
+  </url>
+
+  <!-- English Terms and Conditions -->
+  <url>
+    <loc>https://www.mimitarot.com/en/terms-conditions.html</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://www.mimitarot.com/hr/uvjeti-koristenja.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mimitarot.com/en/terms-conditions.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mimitarot.com/"/>
+    <lastmod>2025-10-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.30</priority>
+  </url>
 
 </urlset>
