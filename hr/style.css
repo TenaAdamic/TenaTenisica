@@ -789,6 +789,91 @@ h5 {
   border: 2px solid var(--main-color);
 }
 
+.blog-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.blog-header {
+  text-align: center;
+  margin-bottom: 4rem;
+  padding: 4rem 0;
+}
+
+.blog-header p {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  color: var(--color-font);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.blog-card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.blog-image {
+  width: 100%;
+  height: 250px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: "Barlow Condensed", sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+.blog-content {
+  padding: 1.5rem;
+}
+
+.blog-title {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.4rem;
+  color: var(--main-color);
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+
+.blog-excerpt {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--color-font);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.blog-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #999;
+  font-size: 0.9rem;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
 /* @media (max-width: 1200px) {
 
   #spread-deck-back {
@@ -2465,10 +2550,18 @@ textarea {
 }
 
 @keyframes rotate-device {
-  0% { transform: rotate(0deg); }
-  25% { transform: rotate(-10deg); }
-  75% { transform: rotate(100deg); }
-  100% { transform: rotate(90deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-10deg);
+  }
+  75% {
+    transform: rotate(100deg);
+  }
+  100% {
+    transform: rotate(90deg);
+  }
 }
 
 /* Show rotation message for mobile portrait when viewing cards */
@@ -2477,7 +2570,7 @@ textarea {
   .display-prompt:not(.hidden):not(:empty) ~ .rotate-message {
     display: flex;
   }
-  
+
   /* Alternative: Force landscape view by rotating content */
   .mobile-landscape-content {
     transform: rotate(90deg);
@@ -3125,18 +3218,18 @@ textarea {
     height: 60px !important; /* Reduced from default height */
     padding: 0.25rem 0 !important;
   }
-  
+
   body.online-tarot-page .nav-container img,
   body.online-tarot-reading-page .nav-container img {
     height: 50px !important; /* Reduced from 120px */
   }
-  
+
   /* Adjust the margin-top for content below navbar */
   body.online-tarot-page .online-reading,
   body.online-tarot-reading-page .online-reading {
     margin-top: 60px !important; /* Match the new navbar height */
   }
-  
+
   /* For even smaller landscape screens (phones) */
   @media (max-height: 500px) {
     body.online-tarot-page .nav-container,
@@ -3144,12 +3237,12 @@ textarea {
       height: 45px !important;
       padding: 0.125rem 0 !important;
     }
-    
+
     body.online-tarot-page .nav-container img,
     body.online-tarot-reading-page .nav-container img {
       height: 40px !important;
     }
-    
+
     body.online-tarot-page .online-reading,
     body.online-tarot-reading-page .online-reading {
       margin-top: 45px !important;
