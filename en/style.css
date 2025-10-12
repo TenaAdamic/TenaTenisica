@@ -2273,8 +2273,8 @@ textarea {
   margin: 0px 5px;
   width: 0.625rem;
   height: 0.625rem;
-  background-color: gray;
-  border: 1px solid #ffffff;
+  background-color: #baffc9;
+  border: 1px solid #ec4899;
   border-radius: 4px;
   opacity: 0.6;
   cursor: pointer;
@@ -2303,8 +2303,8 @@ textarea {
   position: absolute;
   width: 1.875rem;
   height: 1.875rem;
-  background-color: lightgray;
-  border: 1px solid #ffffff;
+  background-color: #baffc9;
+  border: 1px solid #ec4899;
   border-radius: 4px;
   opacity: 0.6;
   cursor: pointer;
