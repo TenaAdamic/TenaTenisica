@@ -1,0 +1,80 @@
+# Browser Caching Configuration
+# Enable compression
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/plain
+    AddOutputFilterByType DEFLATE text/html
+    AddOutputFilterByType DEFLATE text/xml
+    AddOutputFilterByType DEFLATE text/css
+    AddOutputFilterByType DEFLATE application/xml
+    AddOutputFilterByType DEFLATE application/xhtml+xml
+    AddOutputFilterByType DEFLATE application/rss+xml
+    AddOutputFilterByType DEFLATE application/javascript
+    AddOutputFilterByType DEFLATE application/x-javascript
+</IfModule>
+
+# Cache Configuration
+<IfModule mod_expires.c>
+    ExpiresActive on
+
+    # Images - 1 year
+    ExpiresByType image/jpg "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/gif "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+
+    # CSS - 1 month (minified) / 30 days (regular)
+    ExpiresByType text/css "access plus 1 month"
+
+    # JavaScript - 1 month
+    ExpiresByType text/javascript "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+    ExpiresByType application/x-javascript "access plus 1 month"
+
+    # Fonts - 1 year
+    ExpiresByType font/woff "access plus 1 year"
+    ExpiresByType font/woff2 "access plus 1 year"
+    ExpiresByType application/font-woff "access plus 1 year"
+    ExpiresByType application/font-woff2 "access plus 1 year"
+
+    # Favicon and manifest - 1 year
+    ExpiresByType image/x-icon "access plus 1 year"
+    ExpiresByType application/manifest+json "access plus 1 year"
+
+    # HTML - 1 hour
+    ExpiresByType text/html "access plus 1 hour"
+</IfModule>
+
+# Alternative headers approach
+<IfModule mod_headers.c>
+    # Images
+    <FilesMatch "\.(jpg|jpeg|png|gif|webp|svg)$">
+        Header set Cache-Control "public, max-age=31536000, immutable"
+    </FilesMatch>
+
+    # Minified CSS
+    <FilesMatch "\.min\.css$">
+        Header set Cache-Control "public, max-age=31536000, immutable"
+    </FilesMatch>
+
+    # Regular CSS
+    <FilesMatch "\.css$">
+        Header set Cache-Control "public, max-age=2592000"
+    </FilesMatch>
+
+    # JavaScript
+    <FilesMatch "\.js$">
+        Header set Cache-Control "public, max-age=2592000"
+    </FilesMatch>
+
+    # HTML
+    <FilesMatch "\.html$">
+        Header set Cache-Control "public, max-age=3600, must-revalidate"
+    </FilesMatch>
+
+    # Favicon and manifest
+    <FilesMatch "\.(ico|webmanifest)$">
+        Header set Cache-Control "public, max-age=31536000, immutable"
+    </FilesMatch>
+</IfModule>
