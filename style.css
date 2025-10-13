@@ -2329,6 +2329,7 @@ textarea {
   background-color: rgba(99, 102, 241, 0.4);
   padding: 1rem 1rem;
   border-radius: 1rem;
+  border: thick double #baffc9;
 }
 .live-head-content h1 {
   font-size: 2.25rem;
