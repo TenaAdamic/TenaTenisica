@@ -252,6 +252,7 @@ h5 {
 .hero2 {
   margin: 64px auto;
   text-align: center;
+  border: thick double #baffc9;
 }
 
 .live-readings {
