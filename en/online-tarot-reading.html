@@ -66,6 +66,55 @@
       src="https://kit.fontawesome.com/d7bacd7858.js"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Schema.org Service and BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Online Tarot Reading",
+      "description": "Free online tarot readings available 24/7. Get instant guidance for love, career, and personal growth through our digital tarot platform.",
+      "provider": {
+        "@type": "Person",
+        "name": "Mimi",
+        "url": "https://www.mimitarot.com"
+      },
+      "serviceType": "Online Tarot Reading",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "description": "Free online tarot reading service"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Worldwide"
+      },
+      "url": "https://www.mimitarot.com/en/online-tarot-reading.html"
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.mimitarot.com/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Online Tarot Reading",
+          "item": "https://www.mimitarot.com/en/online-tarot-reading.html"
+        }
+      ]
+    }
+    </script>
   </head>
   <body class="online-tarot-reading-page">
     <nav class="nav-container">
