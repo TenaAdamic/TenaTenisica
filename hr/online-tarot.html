@@ -67,6 +67,77 @@
       src="https://kit.fontawesome.com/d7bacd7858.js"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Mimi Tarot Online Čitanje",
+      "description": "Besplatno online tarot čitanje bez prijave. Klikni, odaberi tarot karte i pronađi smjernice za ljubav i posao.",
+      "url": "https://www.mimitarot.com/hr/online-tarot.html",
+      "applicationCategory": "EntertainmentApplication",
+      "operatingSystem": "All",
+      "inLanguage": "hr",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "HRK"
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Mimi Tarot",
+        "url": "https://www.mimitarot.com"
+      }
+    }
+    </script>
+
+    <!-- Service Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Online tarot čitanje",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Mimi Tarot",
+        "url": "https://www.mimitarot.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Zagreb",
+          "addressCountry": "HR"
+        }
+      },
+      "areaServed": "HR",
+      "availableChannel": {
+        "@type": "ServiceChannel",
+        "serviceUrl": "https://www.mimitarot.com/hr/online-tarot.html",
+        "serviceType": "Online tarot čitanje"
+      }
+    }
+    </script>
+
+    <!-- BreadcrumbList Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Naslovnica",
+          "item": "https://www.mimitarot.com/hr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Online Tarot",
+          "item": "https://www.mimitarot.com/hr/online-tarot.html"
+        }
+      ]
+    }
+    </script>
   </head>
   <body class="online-tarot-page">
     <nav class="nav-container">
