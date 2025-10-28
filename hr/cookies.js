@@ -100,7 +100,7 @@ const ccContent = cookieConsentContent[lang] || cookieConsentContent.hr;
 window.cookieconsent.initialise({
   type: "opt-in",
   palette: {
-    popup: { background: "#b8a9c9" },
+    popup: { background: "rgba(186, 255, 201, 1)" },
     button: { background: "#622569" },
   },
   content: ccContent,
