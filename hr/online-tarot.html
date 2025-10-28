@@ -70,87 +70,89 @@
 
     <!-- Schema.org Structured Data -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
-      "name": "Mimi Tarot Online Čitanje",
-      "description": "Besplatno online tarot čitanje bez prijave. Klikni, odaberi tarot karte i pronađi smjernice za ljubav i posao.",
-      "url": "https://www.mimitarot.com/hr/online-tarot.html",
-      "applicationCategory": "EntertainmentApplication",
-      "operatingSystem": "All",
-      "inLanguage": "hr",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "HRK"
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Mimi Tarot",
-        "url": "https://www.mimitarot.com"
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Mimi Tarot Online Čitanje",
+        "description": "Besplatno online tarot čitanje bez prijave. Klikni, odaberi tarot karte i pronađi smjernice za ljubav i posao.",
+        "url": "https://www.mimitarot.com/hr/online-tarot.html",
+        "applicationCategory": "EntertainmentApplication",
+        "operatingSystem": "All",
+        "inLanguage": "hr",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "HRK"
+        },
+        "provider": {
+          "@type": "Organization",
+          "name": "Mimi Tarot",
+          "url": "https://www.mimitarot.com"
+        }
       }
-    }
     </script>
 
     <!-- Service Schema -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Service",
-      "serviceType": "Online tarot čitanje",
-      "provider": {
-        "@type": "LocalBusiness",
-        "name": "Mimi Tarot",
-        "url": "https://www.mimitarot.com",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Zagreb",
-          "addressCountry": "HR"
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Online tarot čitanje",
+        "provider": {
+          "@type": "LocalBusiness",
+          "name": "Mimi Tarot",
+          "url": "https://www.mimitarot.com",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Zagreb",
+            "addressCountry": "HR"
+          }
+        },
+        "areaServed": "HR",
+        "availableChannel": {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://www.mimitarot.com/hr/online-tarot.html",
+          "serviceType": "Online tarot čitanje"
         }
-      },
-      "areaServed": "HR",
-      "availableChannel": {
-        "@type": "ServiceChannel",
-        "serviceUrl": "https://www.mimitarot.com/hr/online-tarot.html",
-        "serviceType": "Online tarot čitanje"
       }
-    }
     </script>
 
     <!-- BreadcrumbList Schema -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Naslovnica",
-          "item": "https://www.mimitarot.com/hr/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Online Tarot",
-          "item": "https://www.mimitarot.com/hr/online-tarot.html"
-        }
-      ]
-    }
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Naslovnica",
+            "item": "https://www.mimitarot.com/hr/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Online Tarot",
+            "item": "https://www.mimitarot.com/hr/online-tarot.html"
+          }
+        ]
+      }
     </script>
   </head>
   <body class="online-tarot-page">
     <nav class="nav-container">
       <a href="./index.html">
         <picture>
-          <source srcset="../images/Mimi_logo.webp" type="image/webp">
+          <source srcset="../images/Mimi_logo.webp" type="image/webp" />
           <img
             src="../images/Mimi_logo.png"
             height="120px"
-            alt="Čitanje tarota na Maksimiru" loading="eager"
+            alt="Čitanje tarota na Maksimiru"
+            loading="eager"
           />
         </picture>
-      </a><ul class="nav-list">
+      </a>
+      <ul class="nav-list">
         <li><a href="./osobni-tarot.html">Tarot uživo</a></li>
         <li>
           <a href="#" class="nav-disabled" style="color: #b8a9c9"
@@ -517,6 +519,8 @@
           margin-top: 5rem;
 
           color: #000000;
+          font-size: 36px;
+          font-weight: 900;
         "
       >
         Pripreme prije tarot čitanja
@@ -1171,11 +1175,15 @@
           >
             <div class="blog-image">
               <img
-                src="/images/History_Tarot.jpg" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 400px"
+                src="/images/History_Tarot.jpg"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 400px"
                 alt="Nekad igra karata za elitu, danas mapa duše, putovanje tarot
               karata od ogovaranja 15. stoljeća do duhovnog vodiča 21.
               stoljeća."
-                style="width: 100%; height: auto; border-radius: 8px" loading="lazy" width="1280" height="960"
+                style="width: 100%; height: auto; border-radius: 8px"
+                loading="lazy"
+                width="1280"
+                height="960"
               />
             </div>
             <div class="blog-content">
@@ -1205,11 +1213,15 @@
           >
             <div class="blog-image">
               <img
-                src="/images/Tarot_Prep.jpeg" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 400px"
+                src="/images/Tarot_Prep.jpeg"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 400px"
                 alt=" Evo kako
                 podesiti energiju, vibe i fokus tako da tvoja sljedeća tarot
                 seansa stvarno ima smisla."
-                style="width: 100%; height: auto; border-radius: 8px" loading="lazy" width="1080" height="1080"
+                style="width: 100%; height: auto; border-radius: 8px"
+                loading="lazy"
+                width="1080"
+                height="1080"
               />
             </div>
             <div class="blog-content">
@@ -1240,10 +1252,14 @@
           >
             <div class="blog-image">
               <img
-                src="/images/Major_Arcana_Meaning.png" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 400px"
+                src="/images/Major_Arcana_Meaning.png"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 400px"
                 alt=" Od Lude do Svijeta, svaka tarot karta je jedna lekcija, svaki simbol
                 podsjetnik da je život najveći ritual od svih."
-                style="width: 100%; height: auto; border-radius: 8px" loading="lazy" width="1080" height="1080"
+                style="width: 100%; height: auto; border-radius: 8px"
+                loading="lazy"
+                width="1080"
+                height="1080"
               />
             </div>
             <div class="blog-content">
@@ -1275,7 +1291,9 @@
           <a href="https://www.instagram.com/mimitarotbastet/">
             <i class="fa-brands fa-instagram" style="color: #5a2569"></i
           ></a>
-          <a href="https://www.facebook.com/profile.php?id=100083098346267&locale=hr_HR">
+          <a
+            href="https://www.facebook.com/profile.php?id=100083098346267&locale=hr_HR"
+          >
             <i class="fa-brands fa-facebook" style="color: #5a2569"></i>
           </a>
         </div>

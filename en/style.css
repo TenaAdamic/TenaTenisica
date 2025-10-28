@@ -98,7 +98,7 @@ h5 {
   font-size: 1rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
-  color: #ec4899;
+  color: var(--main-color);
   text-align: center;
   font-weight: bold;
 }
@@ -171,8 +171,11 @@ h5 {
   text-decoration: none;
   text-transform: capitalize;
   margin-right: 32px;
+  padding: 5px 10px;
   font-weight: 400;
-  color: var(--main-color);
+  color: black;
+  background-color: rgba(186, 255, 201, 1);
+  border-radius: 0.5rem;
 }
 
 .nav-list a:hover {
@@ -495,7 +498,7 @@ h5 {
 }
 
 .accordion-button:hover {
-  background-color: var(--secondary-color);
+  background-color: rgba(186, 255, 201, 1);
 }
 
 .accordion-content {
@@ -1455,7 +1458,7 @@ h5 {
 }
 
 .slider-button:hover {
-  color: var(--secondary-color);
+  color: rgba(186, 255, 201, 1);
 }
 
 @media (min-width: 1025px) and (max-width: 1275px) {
@@ -2192,7 +2195,7 @@ textarea {
 }
 
 .shuffle:hover {
-  color: var(--secondary-color);
+  color: rgba(186, 255, 201, 1);
 }
 
 .past-present-future {
@@ -2458,7 +2461,7 @@ textarea {
 }
 
 .prices-button:hover {
-  color: var(--secondary-color);
+  color: rgba(186, 255, 201, 1);
 }
 
 .why-live-container {
@@ -2513,7 +2516,7 @@ textarea {
 }
 
 .why-live-item {
-  background-color: rgba(60, 15, 175, 0.08);
+  background-color: rgba(99, 102, 241, 0.4);
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -2685,7 +2688,7 @@ textarea {
   gap: 2rem;
   width: 80%;
   margin: 0 auto;
-  background-color: rgba(60, 15, 175, 0.09);
+  background-color: rgba(99, 102, 241, 0.4);
   border-radius: 0.5rem;
   padding: 2rem;
 }
@@ -2786,7 +2789,7 @@ textarea {
   max-width: 56rem;
   margin: 8rem auto;
   text-align: center;
-  background-color: rgba(60, 15, 175, 0.09);
+  background-color: rgba(99, 102, 241, 0.4);
   border-radius: 0.5rem;
   padding: 0 2rem;
 }
@@ -2975,7 +2978,7 @@ textarea {
 }
 
 .faq-button:hover {
-  color: var(--secondary-color);
+  color: rgba(186, 255, 201, 1);
 }
 
 /* Testimonial Slider */
@@ -3021,6 +3024,7 @@ textarea {
   box-shadow: 0 0 2px #dadfd3;
   margin: 0 auto;
   padding: 1.25rem;
+  border-radius: 2rem;
   font-style: italic;
   padding-left: 5.313rem;
   width: 60%;
@@ -3070,7 +3074,7 @@ textarea {
 
 .carousel-dots .dot {
   height: 5px;
-  background: var(--secondary-color);
+  background: rgba(186, 255, 201, 1);
   width: 1.25rem;
   display: inline-block;
   margin: 5px;
@@ -3258,5 +3262,5 @@ textarea {
 }
 
 .personalized-link-text:hover {
-  color: var(--secondary-color);
+  color: rgba(186, 255, 201, 1);
 }
