@@ -2178,6 +2178,15 @@ textarea {
   opacity: 0.3 !important;
   transform: scale(0.7) !important;
 }
+.cc-btn,
+.cc-allow,
+.cc-dismiss {
+  border-radius: 16px !important;
+}
+.cc-link,
+.cc-deny {
+  color: black !important;
+}
 .homepage-background,
 .live-readings,
 .online-reading,
