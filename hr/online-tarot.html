@@ -627,12 +627,16 @@
         <div class="personalized-content-wrapper">
           <div class="personalized-content-container">
             <div class="personalized-content">
-              <img
-                class="personalized-content-image"
-                src="./images/Personal_reading.png"
-                style="height: 380px; width: 250px"
-                alt="Gatanje i tarot uživo, čitanje tarot karata samo za vas."
-              />
+              <picture>
+                <source srcset="../images/Personal_reading.webp" type="image/webp">
+                <img
+                  class="personalized-content-image"
+                  src="../images/Personal_reading.jpeg"
+                  style="height: 380px; width: 250px"
+                  alt="Gatanje i tarot uživo, čitanje tarot karata samo za vas."
+                  loading="lazy"
+                />
+              </picture>
               <div class="personalized-text-content">
                 <h3>Više te zanima tarot uživo?</h3>
                 <p class="personalized-description">
