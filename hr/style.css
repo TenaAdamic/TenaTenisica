@@ -188,6 +188,12 @@ h5 {
   background-color: #baffc9;
 }
 
+@media (min-width: 768px) {
+  .nav-list a {
+    margin-right: 32px;
+  }
+}
+
 @media (max-width: 500px) {
   .nav-list {
     justify-content: center;

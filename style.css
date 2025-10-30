@@ -176,13 +176,18 @@ h5 {
 .nav-list a {
   text-decoration: none;
   text-transform: capitalize;
-  margin-right: 32px;
   font-weight: 400;
   color: var(--main-color);
 }
 
 .nav-list a:hover {
   color: var(--secondary-color);
+}
+
+@media (min-width: 768px) {
+  .nav-list a {
+    margin-right: 32px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -192,7 +197,6 @@ h5 {
 
   .nav-list a {
     font-size: 14px;
-    margin-right: 16px;
   }
 
   .nav-container img {
