@@ -74,6 +74,14 @@ h1 {
   margin: 32px;
 }
 
+.ex-h1 {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  margin: 32px;
+}
+
 h2 {
   text-transform: uppercase;
   font-size: 24px;
@@ -2748,7 +2756,7 @@ textarea {
   gap: 2rem;
   width: 80%;
   margin: 0 auto;
-  background-color: preparation-content-grid;
+  background-color: rgba(99, 102, 241, 0.4);
   border-radius: 0.5rem;
   padding: 2rem;
 }
