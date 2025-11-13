@@ -144,11 +144,14 @@ h5 {
 .nav-list a {
   text-decoration: none;
   text-transform: capitalize;
+  padding: 5px;
   font-weight: 400;
-  color: var(--main-color);
+  color: black;
+  border-radius: 0.5rem;
+  white-space: nowrap;
 }
 .nav-list a:hover {
-  color: var(--secondary-color);
+  background-color: #baffc9;
 }
 @media (min-width: 768px) {
   .nav-list a {
