@@ -134,6 +134,7 @@ h5 {
   color: #b8a9c9;
   pointer-events: none;
   cursor: default;
+  background-color: #baffc9;
 }
 @media (max-width: 600px) {
   .home-intro-h2 {

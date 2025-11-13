@@ -166,6 +166,7 @@ h5 {
   color: #b8a9c9;
   pointer-events: none;
   cursor: default;
+  background-color: #baffc9;
 }
 
 /* Iz nekog razloga mi ovaj slider i arrows-prev se ne  mijenjaju s responzivnošću */
