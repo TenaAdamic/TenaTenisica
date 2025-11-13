@@ -80,6 +80,14 @@ h2 {
   margin-bottom: 32px;
 }
 
+.ex-h1 {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  margin: 32px;
+}
+
 .home-intro-h2 {
   margin-bottom: 0;
 }
