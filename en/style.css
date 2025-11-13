@@ -106,7 +106,7 @@ h5 {
   font-size: 1rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
-  color: #ec4899;
+  color: var(--main-color);
   text-align: center;
   font-weight: bold;
 }
@@ -516,7 +516,7 @@ h5 {
 }
 
 .accordion-button:hover {
-  background-color: var(--secondary-color);
+  background-color: rgba(186, 255, 201, 1);
 }
 
 .accordion-content {
@@ -1392,7 +1392,7 @@ h5 {
 }
 
 .slider-button:hover {
-  color: var(--secondary-color);
+  color: rgba(186, 255, 201, 1);
 }
 
 @media (min-width: 1025px) and (max-width: 1275px) {
@@ -2129,7 +2129,7 @@ textarea {
 }
 
 .shuffle:hover {
-  color: var(--secondary-color);
+  color: rgba(186, 255, 201, 1);
 }
 
 .past-present-future {
@@ -2395,7 +2395,7 @@ textarea {
 }
 
 .prices-button:hover {
-  color: var(--secondary-color);
+  color: rgba(186, 255, 201, 1);
 }
 
 .why-live-container {
@@ -2912,7 +2912,7 @@ textarea {
 }
 
 .faq-button:hover {
-  color: var(--secondary-color);
+  color: rgba(186, 255, 201, 1);
 }
 
 /* Testimonial Slider */
@@ -3195,7 +3195,7 @@ textarea {
 }
 
 .personalized-link-text:hover {
-  color: var(--secondary-color);
+  color: rgba(186, 255, 201, 1);
 }
 
 /* Blog Universal Styling */

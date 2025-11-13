@@ -83,7 +83,7 @@ h5 {
   font-size: 1rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
-  color: #ec4899;
+  color: var(--main-color);
   text-align: center;
   font-weight: 700;
 }
@@ -420,7 +420,7 @@ h5 {
   transition: background-color 0.3s ease;
 }
 .accordion-button:hover {
-  background-color: var(--secondary-color);
+  background-color: rgba(186, 255, 201, 1);
 }
 .accordion-content {
   padding: 15px;
@@ -1100,7 +1100,7 @@ h5 {
   background: 0 0;
 }
 .slider-button:hover {
-  color: var(--secondary-color);
+  color: rgba(186, 255, 201, 1);
 }
 @media (min-width: 1025px) and (max-width: 1275px) {
   .instructions {
@@ -1709,7 +1709,7 @@ textarea {
   animation: blink 1.5s infinite;
 }
 .shuffle:hover {
-  color: var(--secondary-color);
+  color: rgba(186, 255, 201, 1);
 }
 .past-present-future {
   display: flex;
@@ -1947,7 +1947,7 @@ textarea {
   background: 0 0;
 }
 .prices-button:hover {
-  color: var(--secondary-color);
+  color: rgba(186, 255, 201, 1);
 }
 .why-live-container {
   padding: 6rem 1.5rem;
@@ -2361,7 +2361,7 @@ textarea {
   cursor: pointer;
 }
 .faq-button:hover {
-  color: var(--secondary-color);
+  color: rgba(186, 255, 201, 1);
 }
 .testimonial-section-padding {
   padding: 2rem 0;
@@ -2593,7 +2593,7 @@ textarea {
   }
 }
 .personalized-link-text:hover {
-  color: var(--secondary-color);
+  color: rgba(186, 255, 201, 1);
 }
 .blog-container {
   max-width: 1200px;
