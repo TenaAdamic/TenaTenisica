@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog Image Test</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>Testing Blog Card Image</h1>
+
+    <div class="blog-card">
+        <div class="blog-image">
+            <picture>
+                <source srcset="/images/Incal.webp" type="image/webp" />
+                <source srcset="/images/Incal.jpeg" type="image/jpeg" />
+                <img
+                    src="/images/Incal.jpeg"
+                    alt="Test"
+                    loading="lazy"
+                    width="1706"
+                    height="1280"
+                />
+            </picture>
+        </div>
+        <div class="blog-content">
+            <h2>Test Title</h2>
+            <p>Test description</p>
+        </div>
+    </div>
+
+    <hr>
+    <h2>Without Picture Element:</h2>
+    <div class="blog-image">
+        <img src="/images/Incal.jpeg" alt="Test Direct" style="width: 100%; height: 100%; object-fit: contain;">
+    </div>
+</body>
+</html>
