@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="hr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zašto Da/Ne tarot čitanje nikad zapravo ne znači Da ili Ne</title>
+    <link
+      rel="canonical"
+      href="https://www.mimitarot.com/hr/blog-mimi-tarot-da-ili-ne-citanje.html"
+    />
+    <link
+      rel="alternate"
+      hreflang="hr"
+      href="https://www.mimitarot.com/hr/blog-mimi-tarot-da-ili-ne-citanje.html"
+    />
+    <link
+      rel="alternate"
+      hreflang="en"
+      href="https://www.mimitarot.com/en/blog-mimi-tarot-yes-no-reading.html"
+    />
+    <link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://www.mimitarot.com/"
+    />
+    <meta
+      name="description"
+      content="Da/Ne tarot čitanja obećavaju jednostavne odgovore, ali karte govore jezikom simbola, ne binarne logike. Otkrij kako tarot odražava tvoju intuiciju."
+    />
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="stylesheet" href="style.min.css" />
+
+    <style>
+      .article-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem;
+        line-height: 1.7;
+      }
+
+      .back-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: var(--main-color);
+        text-decoration: none;
+        font-weight: 500;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        transition: color 0.3s ease;
+      }
+
+      .back-link:hover {
+        color: #5a2569;
+      }
+
+      .article-header {
+        text-align: center;
+        margin-bottom: 3rem;
+        padding: 2rem 0;
+      }
+
+      .article-title {
+        font-size: 2.5rem;
+        color: var(--main-color);
+        margin-bottom: 1rem;
+        line-height: 1.2;
+      }
+
+      .article-meta {
+        color: #666;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+      }
+
+      .article-content {
+        font-size: 1.1rem;
+        color: #333;
+      }
+
+      .article-content h2 {
+        color: var(--main-color);
+        font-size: 1.8rem;
+        margin: 2.5rem 0 1rem 0;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid #e8d5f0;
+      }
+
+      .article-content h3 {
+        color: var(--main-color);
+        font-size: 1.4rem;
+        margin: 2rem 0 1rem 0;
+      }
+
+      .article-content p {
+        margin-bottom: 1.5rem;
+        text-align: justify;
+      }
+
+      .article-content ul,
+      .article-content ol {
+        margin-bottom: 1.5rem;
+        padding-left: 2rem;
+      }
+
+      .article-content li {
+        margin-bottom: 0.5rem;
+      }
+
+      .highlight-box {
+        background: linear-gradient(135deg, #f8f4fd 0%, #e8d5f0 100%);
+        border-left: 4px solid var(--main-color);
+        padding: 1.5rem;
+        margin: 2rem 0;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .timeline-box {
+        background: #fff;
+        border: 2px solid #e8d5f0;
+        padding: 1.5rem;
+        margin: 2rem 0;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      .timeline-box h3 {
+        color: var(--main-color);
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-size: 1.3rem;
+      }
+
+      .tip-box {
+        background: #f0f8ff;
+        border-left: 4px solid #4a90e2;
+        padding: 1.5rem;
+        margin: 2rem 0;
+        border-radius: 8px;
+      }
+
+      .card-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+        margin: 2rem 0;
+      }
+
+      .card-box {
+        background: white;
+        border: 2px solid #e8d5f0;
+        padding: 1.5rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .card-box:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+      }
+
+      .card-box h3 {
+        color: var(--main-color);
+        margin-top: 0;
+        font-size: 1.2rem;
+      }
+
+      .card-number {
+        font-weight: 700;
+        color: var(--main-color);
+        font-size: 1.1rem;
+        margin-bottom: 0.8rem;
+        border-bottom: 1px solid #e8d5f0;
+        padding-bottom: 0.5rem;
+      }
+
+      @media (max-width: 768px) {
+        .article-container {
+          padding: 1rem;
+        }
+
+        .article-title {
+          font-size: 2rem;
+        }
+
+        .article-content {
+          font-size: 1rem;
+        }
+
+        .article-content h2 {
+          font-size: 1.5rem;
+        }
+
+        .article-content h3 {
+          font-size: 1.3rem;
+        }
+
+        .highlight-box,
+        .timeline-box,
+        .tip-box {
+          padding: 1rem;
+          margin: 1.5rem 0;
+        }
+
+        .card-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+
+    <!-- CookieConsent CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Koulen&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/d7bacd7858.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Schema.org BlogPosting -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Zašto 'Da ili Ne' tarot čitanje nikad zapravo ne znači Da ili Ne",
+        "description": "Da/Ne tarot čitanja obećavaju jednostavne odgovore, ali karte govore jezikom simbola, ne binarne logike. Otkrij kako tarot odražava tvoju intuiciju.",
+        "datePublished": "2025-01-17",
+        "dateModified": "2025-01-17",
+        "author": {
+          "@type": "Person",
+          "name": "Mimi"
+        },
+        "publisher": {
+          "@type": "Person",
+          "name": "Mimi",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.mimitarot.com/images/Mimi_logo.png"
+          }
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.mimitarot.com/hr/blog-mimi-tarot-da-ili-ne-citanje.html"
+        },
+        "articleSection": "Tarot čitanje",
+        "keywords": "da ne tarot, tarot čitanje, tarot vodstvo, intuicija, dnevni tarot, donošenje odluka",
+        "wordCount": "1800",
+        "timeRequired": "PT9M"
+      }
+    </script>
+
+    <!-- BreadcrumbList Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Početna",
+            "item": "https://www.mimitarot.com/hr/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.mimitarot.com/hr/blog.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Da ili Ne Tarot",
+            "item": "https://www.mimitarot.com/hr/blog-mimi-tarot-da-ili-ne-citanje.html"
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <nav class="nav-container">
+      <a href="./">
+        <picture>
+          <img src="./images/Mimi_logo.png" alt="logo" height="100" />
+        </picture>
+      </a>
+      <ul class="nav-list">
+        <li><a href="./online-tarot.html">Online Tarot</a></li>
+        <li><a href="./osobni-tarot.html">Uživo Tarot</a></li>
+        <li><a href="./blog.html">Blog</a></li>
+        <li><a href="./osobni-tarot.html#end-container">Kontakt</a></li>
+      </ul>
+      <div class="language-container">
+        <a href="/en/blog-mimi-tarot-yes-no-reading.html" class="english">
+          <img
+            src="../images/gb.svg"
+            alt="English"
+            class="language-img"
+            style="width: 2rem; border-radius: 5px"
+          />
+        </a>
+      </div>
+    </nav>
+
+    <div class="homepage-background">
+      <div class="article-container">
+        <a href="./blog.html" class="back-link">
+          <i class="fa-solid fa-arrow-left"></i>
+          Natrag na blog
+        </a>
+
+        <div class="article-header">
+          <h1 class="article-title">
+            Zašto "Da ili Ne" tarot čitanje nikad zapravo ne znači Da ili Ne
+          </h1>
+          <div class="article-meta">
+            <i class="fa-solid fa-clock"></i> 9 min čitanja
+          </div>
+        </div>
+
+        <div class="article-content">
+          <p>
+            Ponekad ne želiš duboku duhovnu poruku iz svog tarot špila. Ne treba
+            ti analiza arhetipova, mistična simbolika ni lekcija o "energijama".
+            Sve što zapravo želiš je jednostavan odgovor: "Da li da mu/joj se
+            javim ili ne?"
+          </p>
+
+          <p>
+            Zvuči jednostavno, ali nije. Jer pravo značenje takvog čitanja ne
+            leži u riječima "da" ili "ne", nego u načinu na koji se osjećaš kad
+            vidiš svoju kartu. Tarot ne daje konačne odgovore, on ti pokazuje
+            što tvoja intuicija već zna.
+          </p>
+
+          <h2>Zašto stalno tražimo sigurnost od karata</h2>
+
+          <p>
+            Ljudi se okreću tarotu zbog vodstva, utjehe ili malo mistične drame.
+            Ali "da/ne" tarot čitanje odgovara potrebi za kontrolom prerušenu u
+            intuiciju. Povučeš kartu i nadaš se da će ti svemir konačno dati
+            jasan i konkretan odgovor.
+          </p>
+
+          <p>
+            "Trebam li dati otkaz?"<br />
+            "Hoće li se javiti?"<br />
+            "Hoće li ovo uspjeti?"
+          </p>
+
+          <p>
+            Ironično, tarot uopće ne funkcionira u kategorijama jasnih odgovora.
+            Po svojoj prirodi, on govori jezikom simbola, energije i konteksta,
+            zapravo suprotno binarnoj logici. Ali postoji nešto duboko ljudsko u
+            potrebi da dobijemo jasan smjer kad nam se glava vrti od previše
+            misli. Zato i dalje pitamo: da ili ne?, nadajući se da će karte
+            riješiti sukob između srca i razuma.
+          </p>
+
+          <h2>Kako "Da/Ne" tarot čitanje zapravo funkcionira</h2>
+
+          <p>
+            Evo male tajne koju većina tarot čitača zna, ali rijetko kaže
+            naglas: karte ne odlučuju umjesto tebe, one ti pokazuju tvoju
+            podsvijest.
+          </p>
+
+          <p>
+            Kad postaviš pitanje i izvučeš kartu, ne prizivaš božansku istinu iz
+            druge dimenzije. Samo promatraš kako tvoja intuicija izlazi na
+            površinu u obliku slike.
+          </p>
+
+          <p>
+            Pitaš: "Trebam li ostati na ovom poslu?" i izvučeš Sunce. Odjednom
+            osjetiš lakoću, nadu, kao da opet možeš disati. Taj osjećaj, to je
+            pravi odgovor, ne riječ da.
+          </p>
+
+          <p>
+            Isto pitanje, ali izvučeš Đavla. Osjetiš napetost. Nelagodu. To je
+            tvoja intuicija koja viče "NE" jače nego bilo koji prorok.
+          </p>
+
+          <div class="highlight-box">
+            <p>
+              Tarot ti daje jezik za tvoje vlastito podsvjesno znanje. "Da/Ne"
+              čitanja su samo njegov brzi, pojednostavljeni oblik.
+            </p>
+          </div>
+
+          <h2>Kako to zapravo čitati</h2>
+
+          <p>
+            Svatko ima svoj način. Neki broje obrnuto okrenute tarot karte kao
+            "ne", a uspravno okrenute kao "da". Neki broje parne (da) i neparne
+            (ne) brojeve tarot karata, neki se oslanjaju samo na osjećaj. Ali
+            evo jednostavnijeg i iskrenijeg pristupa:
+          </p>
+
+          <p>
+            <strong>Svijetle, otvorene karte</strong> (Sunce, Zvijezda, Svijet,
+            Ljubavnici) obično znače da, ili barem zeleno svjetlo.
+          </p>
+
+          <p>
+            <strong>Teške, ograničavajuće karte</strong> (Kula, Đavo, Deset
+            mačeva, Pet pehara) više su ne, ili "ne sada."
+          </p>
+
+          <p>
+            <strong>Uravnotežene ili složene karte</strong> (Umjerenost,
+            Pustinjak, Pravda) kažu: "Uspori. Ovo nije crno-bijelo."
+          </p>
+
+          <p>U prijevodu: tarot verzija rečenice "komplicirano je".</p>
+
+          <p>
+            A upravo u toj sivoj zoni događa se prava magija, kad prestaneš
+            moliti svemir za odgovor i počneš istraživati zašto uopće pitaš.
+          </p>
+
+          <h2>Problem Paža pehara (i lijek Umjerenosti)</h2>
+
+          <p>Uzmimo primjer iz današnjeg čitanja, Paž pehara i Umjerenost.</p>
+
+          <p>
+            Paž pehara donosi znatiželju, emocionalnu otvorenost i onu slatku
+            početničku zaljubljenost. To je glas koji šapće: "Idi, što može poći
+            po zlu?" A onda se pojavljuje Umjerenost, mudra i staložena, s
+            nebeskim koktelom u ruci, i govori: "U redu, ali polako. Nađi
+            ravnotežu."
+          </p>
+
+          <p>
+            Ako pitaš: "Trebam li se javiti?", odgovor nije jednostavno "da". To
+            je nježno da, ono koje kaže: "Možeš, ali ostani prizemljen dok ti
+            srce leti."
+          </p>
+
+          <div class="highlight-box">
+            <p>
+              I tu je ljepota tarota: čak i kad postaviš binarno pitanje, on ti
+              da cijeli spektar nijansi.
+            </p>
+            <p>
+              Luda skače.<br />
+              Umjerenost diše.<br />
+              Magija se događa negdje između.
+            </p>
+          </div>
+
+          <h2>Zašto je "možda" ponekad najiskreniji odgovor</h2>
+
+          <p>
+            Tarot ne voli krajnosti jer ni život ih ne voli. Svrha "da/ne" tarot
+            čitanja nije da ti preda sudbinu, nego da ti pokaže koliko si
+            usklađen sa sobom.
+          </p>
+
+          <p>
+            Ako karte kažu "da", ali ti u trbuhu osjećaš "ne", to je tvoj
+            odgovor. Ako kažu "ne", ali te iznutra nešto tjera da se boriš s
+            tim, i to je tvoj odgovor.
+          </p>
+
+          <p>
+            Ponekad ne tražiš odgovor, nego dozvolu. Želiš da karte kažu "da"
+            kako bi bez grižnje savjesti napravio ono što si ionako odlučio. Ili
+            želiš "ne" kako bi mogao prestati glumiti da još razmišljaš.
+          </p>
+
+          <p>
+            Zato iskusni čitači znaju reći da tarot ne predviđa budućnost, on
+            razotkriva tvoje motive.
+          </p>
+
+          <h2>Kako koristiti "Da/Ne" tarot bez da poludiš</h2>
+
+          <p>
+            Najveća zamka ovih čitanja je ovisnost o njima. Ako vučeš tarot
+            kartu svaki put kad ne možeš odlućiti između zobenog i bademovog
+            mlijeka, vrijeme je da napraviš pauzu.
+          </p>
+
+          <p>
+            Poanta nije da tarot odlučuje umjesto tebe, nego da ti vrati
+            povjerenje u sebe.
+          </p>
+
+          <p>
+            "Da/Ne" čitanje treba biti razgovor s tvojom podsviješću, a ne gotov
+            recept. Zato pokušaj ovako:<br />
+            Postavi pitanje, izvuci kartu i obrati pažnju na prvu reakciju. Ne
+            analiziraj, samo osjeti. Onaj djelić sekunde prije nego što mozak
+            krene objašnjavati, to je tvoja istina.
+          </p>
+
+          <h2>Psihologija poteza</h2>
+
+          <p>
+            Ako ti sve ovo zvuči previše "ezoterično", razmisli ovako: tarot
+            funkcionira kao Rorschachov test. Ti projiciraš značenje na slike, a
+            to značenje otkriva ono što već znaš, ali si potisnuo.
+          </p>
+
+          <p>
+            To nije praznovjerje, to je psihologija. Tarot ne govori budućnost;
+            on odražava tvoju vibraciju. "Da/Ne" karta je samo brzi ispis tvoje
+            unutarnje vremenske prognoze.
+          </p>
+
+          <h2>Kada pitati, a kada ne</h2>
+
+          <p>
+            Ne traži od tarota da odlučuje o moralu ili zdravlju. Odličan je za
+            "Trebam li mu poslati poruku?" Ali ne i za "Trebam li prestati ići
+            na terapiju?"
+          </p>
+
+          <p>
+            I nikad ne ponavljaj isto pitanje iznova, nadajući se drugoj karti.
+            Ponovljeni rezultat nije greška, to je povratna informacija. Ako
+            stalno pitaš, to znači da ti se odgovor ne sviđa.
+          </p>
+
+          <p>
+            Zato: pitaj jednom. Poslušaj. Reagiraj. Onda pusti. Tu tarot stvarno
+            djeluje, ne kao proricanje, nego kao svjesno sudjelovanje u
+            vlastitom životu.
+          </p>
+
+          <h2>Na kraju, ti si prorok</h2>
+
+          <p>
+            Možda razlog zašto "Da/Ne" tarot nikad ne daje konačan odgovor leži
+            u tome da ne bi ni trebao. Njegov je cilj da te natjera da
+            primijetiš svoje reakcije.
+          </p>
+
+          <p>
+            To je tvoja intuicija koja govori u stvarnom vremenu. Karte su samo
+            ogledalo.
+          </p>
+
+          <p>
+            Zato, kad idući put postaviš pitanje i okreneš kartu, prestani
+            moliti za sigurnost. Pogledaj što se događa u tebi. Ako osjetiš
+            olakšanje, idi. Ako osjetiš otpor, zastani.
+          </p>
+
+          <p>
+            <strong>Bilo kako bilo, već vodiš razgovor sa svemirom.</strong>
+          </p>
+
+          <div
+            class="tip-box"
+            style="
+              background: linear-gradient(135deg, #f8f4fd 0%, #e8d5f0 100%);
+              border-left: 4px solid var(--main-color);
+              margin-top: 3rem;
+            "
+          >
+            <h3 style="color: var(--main-color); text-transform: uppercase">
+              Spreman za prava pitanja?
+            </h3>
+            <p>
+              Rezerviraj čitanje s Mimi i otkrij što ti tvoja intuicija pokušava
+              reći. Svaka sesija prilagođena je tvojim pitanjima i energiji.
+            </p>
+            <a
+              href="./osobni-tarot.html"
+              style="
+                display: inline-block;
+                background: var(--main-color);
+                color: white;
+                padding: 0.8rem 1.5rem;
+                text-decoration: none;
+                border-radius: 8px;
+                font-weight: 500;
+                margin-top: 1rem;
+              "
+              >Rezerviraj čitanje</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="copyright">
+        <div class="social-media">
+          <a href="https://www.instagram.com/mimitarotbastet/">
+            <i class="fa-brands fa-instagram" style="color: #5a2569"></i>
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=100083098346267&locale=hr_HR"
+          >
+            <i class="fa-brands fa-facebook" style="color: #5a2569"></i>
+          </a>
+        </div>
+        <span>© 2025 Mimi Tarot. Sva prava pridržana.</span>
+      </div>
+
+      <div class="legal">
+        <a href="./politika-privatnosti.html">Politika privatnosti</a>
+        <a href="./uvjeti-koristenja.html">Uvjeti korištenja</a>
+        <a href="./politika-kolacica.html">Politika kolačića</a>
+      </div>
+    </footer>
+
+    <!-- CookieConsent JS -->
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+    <script src="cookies.js"></script>
+  </body>
+</html>

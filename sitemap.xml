@@ -88,7 +88,7 @@
     <xhtml:link rel="alternate" hreflang="hr" href="https://www.mimitarot.com/hr/blog.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.mimitarot.com/en/blog.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mimitarot.com/"/>
-    <lastmod>2025-01-15</lastmod>
+    <lastmod>2025-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.70</priority>
   </url>
@@ -99,9 +99,31 @@
     <xhtml:link rel="alternate" hreflang="hr" href="https://www.mimitarot.com/hr/blog.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.mimitarot.com/en/blog.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mimitarot.com/"/>
-    <lastmod>2025-01-13</lastmod>
+    <lastmod>2025-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.70</priority>
+  </url>
+
+  <!-- English Blog Article: Yes or No Tarot Reading -->
+  <url>
+    <loc>https://www.mimitarot.com/en/blog-mimi-tarot-yes-no-reading.html</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://www.mimitarot.com/hr/blog-mimi-tarot-da-ili-ne-citanje.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mimitarot.com/en/blog-mimi-tarot-yes-no-reading.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mimitarot.com/"/>
+    <lastmod>2025-01-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+
+  <!-- Croatian Blog Article: Yes or No Tarot Reading -->
+  <url>
+    <loc>https://www.mimitarot.com/hr/blog-mimi-tarot-da-ili-ne-citanje.html</loc>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://www.mimitarot.com/hr/blog-mimi-tarot-da-ili-ne-citanje.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mimitarot.com/en/blog-mimi-tarot-yes-no-reading.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mimitarot.com/"/>
+    <lastmod>2025-01-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
   </url>
 
   <!-- Croatian Blog Article: The Moon of The Fool -->
