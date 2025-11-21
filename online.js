@@ -450,38 +450,77 @@ document.querySelector(".slider-button").addEventListener("click", function () {
   targetSection.scrollIntoView({ behavior: "smooth" });
 });
 
-// Simple orientation handler for mobile devices
+// Enhanced orientation handler for mobile devices with multiple detection methods
 (function() {
-  // Create and add rotation message element
+  // Create and add rotation message element with dismiss button
   const rotateMessage = document.createElement('div');
   rotateMessage.className = 'rotate-message';
+  const lang = document.documentElement.lang;
   rotateMessage.innerHTML = `
     <div class="rotate-message-icon">📱</div>
-    <h2>${document.documentElement.lang === 'hr' ? 'Rotiraj uređaj' : 'Rotate Your Device'}</h2>
-    <p>${document.documentElement.lang === 'hr' ? 
-      'Za bolje iskustvo, molimo okrenite uređaj u vodoravni položaj' : 
+    <h2>${lang === 'hr' ? 'Rotiraj uređaj' : 'Rotate Your Device'}</h2>
+    <p>${lang === 'hr' ?
+      'Za bolje iskustvo, molimo okrenite uređaj u vodoravni položaj' :
       'For the best experience, please rotate your device to landscape mode'}</p>
+    <button class="rotate-message-dismiss" style="margin-top: 1rem; padding: 0.5rem 1rem; background-color: #622569; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 0.9rem;">
+      ${lang === 'hr' ? 'Nastavi u portret orijentaciji' : 'Continue in portrait'}
+    </button>
   `;
   rotateMessage.style.display = 'none';
   document.body.appendChild(rotateMessage);
-  
+
+  // Track if user manually dismissed
+  let userDismissed = false;
+
+  // Add dismiss handler
+  rotateMessage.querySelector('.rotate-message-dismiss')?.addEventListener('click', () => {
+    rotateMessage.style.display = 'none';
+    userDismissed = true;
+  });
+
+  // Use matchMedia for reliable orientation detection
+  const portraitQuery = window.matchMedia('(orientation: portrait)');
+
+  // Debounce timeout reference
+  let orientationCheckTimeout;
+
   // Function to check if we should show rotation message
   function checkOrientation() {
+    // Don't show if user manually dismissed
+    if (userDismissed) {
+      return;
+    }
+
     const spreadContainer = document.querySelector('.spread-container');
     const displayPrompt = document.querySelector('.display-prompt');
     const isMobile = window.innerWidth <= 768;
-    const isPortrait = window.innerHeight > window.innerWidth;
-    
+
+    // Use multiple methods to detect portrait orientation (most reliable first)
+    let isPortrait;
+    if (portraitQuery && portraitQuery.matches !== undefined) {
+      // Method 1: matchMedia (most reliable)
+      isPortrait = portraitQuery.matches;
+    } else if (window.screen?.orientation?.type) {
+      // Method 2: Screen Orientation API (modern browsers)
+      isPortrait = window.screen.orientation.type.includes('portrait');
+    } else if (window.orientation !== undefined) {
+      // Method 3: window.orientation (deprecated but still works on older devices)
+      isPortrait = Math.abs(window.orientation) !== 90;
+    } else {
+      // Method 4: Fallback to dimensions (least reliable)
+      isPortrait = window.innerHeight > window.innerWidth;
+    }
+
     // Check if spread-container is visible (opacity > 0)
-    const spreadVisible = spreadContainer && 
-      window.getComputedStyle(spreadContainer).opacity !== '0' && 
+    const spreadVisible = spreadContainer &&
+      window.getComputedStyle(spreadContainer).opacity !== '0' &&
       window.getComputedStyle(spreadContainer).opacity !== '';
-    
+
     // Check if display-prompt is visible and has content
-    const promptVisible = displayPrompt && 
-      !displayPrompt.classList.contains('hidden') && 
+    const promptVisible = displayPrompt &&
+      !displayPrompt.classList.contains('hidden') &&
       displayPrompt.innerHTML.trim() !== '';
-    
+
     // Show message if mobile, portrait, and either element is visible
     if (isMobile && isPortrait && (spreadVisible || promptVisible)) {
       rotateMessage.style.display = 'flex';
@@ -489,23 +528,53 @@ document.querySelector(".slider-button").addEventListener("click", function () {
       rotateMessage.style.display = 'none';
     }
   }
-  
-  // Check on various events
-  window.addEventListener('resize', checkOrientation);
-  window.addEventListener('orientationchange', checkOrientation);
-  
+
+  // Debounced check with multiple attempts (handles delayed viewport updates)
+  function debouncedOrientationCheck() {
+    clearTimeout(orientationCheckTimeout);
+
+    // Check immediately
+    checkOrientation();
+
+    // Check again after delays to handle browsers that update dimensions late
+    setTimeout(checkOrientation, 100);
+    setTimeout(checkOrientation, 300);
+    setTimeout(checkOrientation, 500);
+  }
+
+  // Listen to resize events with debouncing
+  window.addEventListener('resize', debouncedOrientationCheck);
+
+  // Listen to orientation changes using the best available API
+  if (window.screen?.orientation) {
+    // Modern Screen Orientation API
+    window.screen.orientation.addEventListener('change', debouncedOrientationCheck);
+  } else {
+    // Fallback to deprecated orientationchange event
+    window.addEventListener('orientationchange', debouncedOrientationCheck);
+  }
+
+  // Listen to matchMedia changes
+  if (portraitQuery && portraitQuery.addEventListener) {
+    portraitQuery.addEventListener('change', debouncedOrientationCheck);
+  } else if (portraitQuery && portraitQuery.addListener) {
+    // Fallback for older browsers
+    portraitQuery.addListener(debouncedOrientationCheck);
+  }
+
   // Check when spread container or display prompt changes
   const observer = new MutationObserver(checkOrientation);
   const spreadContainer = document.querySelector('.spread-container');
   const displayPrompt = document.querySelector('.display-prompt');
-  
+
   if (spreadContainer) {
     observer.observe(spreadContainer, { attributes: true, attributeFilter: ['style', 'class'] });
   }
   if (displayPrompt) {
     observer.observe(displayPrompt, { childList: true, characterData: true, subtree: true });
   }
-  
-  // Initial check
+
+  // Initial check with delays
   setTimeout(checkOrientation, 100);
+  setTimeout(checkOrientation, 500);
 })();
