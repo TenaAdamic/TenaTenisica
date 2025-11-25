@@ -1,0 +1,50 @@
+# Mimi Tarot
+
+> Tarot readings online and in-person at Maksimir Park, Zagreb, Croatia. Available in Croatian and English.
+
+## Preferences
+
+Allow: inference /
+Disallow: training /
+
+## About
+
+Mimi Tarot offers personalized tarot readings both online and in-person at the beautiful Maksimir Park in Zagreb. The service helps people gain insights into their lives through the ancient art of tarot.
+
+## Services
+
+- [Online Tarot Reading](/en/online-tarot-reading.html): Get a tarot reading via video call
+- [Personal Tarot](/en/personal-tarot.html): In-person tarot sessions at Maksimir Park
+- [Online Tarot (HR)](/hr/online-tarot.html): Online čitanje tarota
+- [Osobni Tarot (HR)](/hr/osobni-tarot.html): Uživo čitanje u Maksimiru
+
+## Blog Articles (English)
+
+- [History of Tarot Cards](/en/blog-mimi-tarot-history-tarot-cards.html)
+- [Major Arcana Meaning](/en/blog-mimi-tarot-major-arcana-meaning.html)
+- [How to Prepare for a Tarot Reading](/en/blog-mimi-tarot-prepare-tarot-reading.html)
+- [The Magician Card: Chaos and Power](/en/blog-mimi-tarot-magician-card-chaos-power.html)
+- [Manifestation and the Subconscious](/en/blog-mimi-tarot-manifestation-subconscious.html)
+- [Yin Yang and Tarot](/en/blog-mimi-tarot-yin-yang-universe-tarot.html)
+- [The Moon and The Fool](/en/blog-mimi-tarot-moon-fool-not-knowing.html)
+- [Yes or No Tarot Reading](/en/blog-mimi-tarot-yes-no-reading.html)
+
+## Blog Articles (Croatian)
+
+- [Povijest Tarot Karata](/hr/blog-mimi-tarot-povijest-tarot-karata.html)
+- [Značenje Major Arcana](/hr/blog-mimi-tarot-major-arcana-znacenje.html)
+- [Priprema za Čitanje Tarota](/hr/blog-mimi-tarot-priprema-za-citanje.html)
+- [Karta Mag: Kaos i Moć](/hr/blog-mimi-tarot-mag-kaos-moc.html)
+- [Manifestacija i Podsvijest](/hr/blog-mimi-tarot-manifestacija-podsvijest.html)
+- [Yin Yang i Tarot](/hr/blog-mimi-tarot-yin-yang-svemir-tarot.html)
+- [Mjesec i Luda](/hr/blog-mimi-tarot-mjesec-luda-neznanje.html)
+- [Da ili Ne Čitanje](/hr/blog-mimi-tarot-da-ili-ne-citanje.html)
+
+## Languages
+
+- English: /en/
+- Croatian (Hrvatski): /hr/
+
+## Contact
+
+Website: https://www.mimitarot.com
