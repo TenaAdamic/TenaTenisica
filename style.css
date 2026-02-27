@@ -49,7 +49,7 @@ body {
 }
 
 #backgroundVideo {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -82,6 +82,7 @@ h2 {
 
 .home-intro-h2 {
   margin-bottom: 0;
+  font-weight: 700;
 }
 
 h3 {
@@ -114,6 +115,62 @@ h5 {
 @media (max-width: 470px) {
   .styled-hr {
     display: none;
+  }
+}
+
+/* Esoteric Moon Phase Divider */
+.esoteric-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  padding: 2.5rem 1rem;
+  user-select: none;
+}
+
+.esoteric-divider .moon {
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+.esoteric-divider .sun {
+  font-size: 1.75rem;
+  color: #d4a853;
+  text-shadow: 0 0 12px rgba(212, 168, 83, 0.4);
+  animation: sunGlow 4s ease-in-out infinite;
+}
+
+@keyframes sunGlow {
+  0%, 100% {
+    text-shadow: 0 0 12px rgba(212, 168, 83, 0.4);
+    transform: scale(1);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(212, 168, 83, 0.6), 0 0 30px rgba(212, 168, 83, 0.3);
+    transform: scale(1.05);
+  }
+}
+
+.esoteric-divider .dot {
+  width: 4px;
+  height: 4px;
+  background: var(--secondary-color);
+  border-radius: 50%;
+  opacity: 0.5;
+}
+
+@media (min-width: 640px) {
+  .esoteric-divider {
+    gap: 1.75rem;
+    padding: 3rem 1rem;
+  }
+  .esoteric-divider .moon {
+    font-size: 1.75rem;
+  }
+  .esoteric-divider .sun {
+    font-size: 2rem;
   }
 }
 
@@ -169,7 +226,7 @@ h5 {
 
   .home-intro-h2 {
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 700;
   }
 }
 
@@ -221,6 +278,42 @@ h5 {
   }
 }
 
+/* Hero Section - Full Viewport */
+.hero-section {
+  position: relative;
+  height: calc(100vh - 5rem);
+  width: 100vw;
+  margin-left: -50vw;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.hero-section #backgroundVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  opacity: 0.5;
+}
+
+.hero-section .home-intro {
+  margin: 0 auto;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  position: relative;
+  z-index: 2;
+}
+
 .home-intro {
   margin: 64px auto 0;
   width: 70vw;
@@ -239,7 +332,7 @@ h5 {
 
   .home-intro-h2 {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 700;
   }
 }
 
@@ -256,7 +349,7 @@ h5 {
 
   .home-intro-h2 {
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 700;
   }
 
   h1 {
@@ -331,7 +424,7 @@ h5 {
   margin-top: 64px;
   font-size: 18px;
   /* font-family: "Outfit", "sans-serif";
-  font-weight: 500; */
+  font-weight: 700; */
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -366,7 +459,7 @@ h5 {
   padding: 8px auto;
   font-size: 64px;
   font-family: "Tenor Sans", sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1;
   letter-spacing: 1.25px;
 }
@@ -2032,7 +2125,7 @@ textarea {
   margin-bottom: 1rem;
   font-size: 1.125rem;
   /* font-family: "Outfit", "sans-serif";
-  font-weight: 500; */
+  font-weight: 700; */
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -2802,7 +2895,7 @@ textarea {
   margin-top: 4rem;
   font-size: 1.125rem;
   font-family: "Outfit", "sans-serif";
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1;
   letter-spacing: 1.25px;
 }
@@ -2875,7 +2968,7 @@ textarea {
   margin-top: 4rem;
   font-size: 1.125rem;
   font-family: "Outfit", "sans-serif";
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1;
   letter-spacing: 1.25px;
 }
