@@ -118,59 +118,38 @@ h5 {
   }
 }
 
-/* Esoteric Moon Phase Divider */
+/* Esoteric Image Divider */
 .esoteric-divider {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1.25rem;
-  padding: 2.5rem 1rem;
+  padding: 2rem 1rem;
   user-select: none;
 }
 
-.esoteric-divider .moon {
-  font-size: 1.5rem;
-  color: var(--secondary-color);
-  opacity: 0.7;
-  transition: all 0.3s ease;
+.esoteric-divider img {
+  max-width: 280px;
+  height: auto;
+  opacity: 0.85;
+  transition: opacity 0.3s ease;
 }
 
-.esoteric-divider .sun {
-  font-size: 1.75rem;
-  color: #d4a853;
-  text-shadow: 0 0 12px rgba(212, 168, 83, 0.4);
-  animation: sunGlow 4s ease-in-out infinite;
-}
-
-@keyframes sunGlow {
-  0%, 100% {
-    text-shadow: 0 0 12px rgba(212, 168, 83, 0.4);
-    transform: scale(1);
-  }
-  50% {
-    text-shadow: 0 0 20px rgba(212, 168, 83, 0.6), 0 0 30px rgba(212, 168, 83, 0.3);
-    transform: scale(1.05);
-  }
-}
-
-.esoteric-divider .dot {
-  width: 4px;
-  height: 4px;
-  background: var(--secondary-color);
-  border-radius: 50%;
-  opacity: 0.5;
+.esoteric-divider img:hover {
+  opacity: 1;
 }
 
 @media (min-width: 640px) {
   .esoteric-divider {
-    gap: 1.75rem;
-    padding: 3rem 1rem;
+    padding: 2.5rem 1rem;
   }
-  .esoteric-divider .moon {
-    font-size: 1.75rem;
+  .esoteric-divider img {
+    max-width: 350px;
   }
-  .esoteric-divider .sun {
-    font-size: 2rem;
+}
+
+@media (min-width: 1024px) {
+  .esoteric-divider img {
+    max-width: 420px;
   }
 }
 
