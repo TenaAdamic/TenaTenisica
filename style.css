@@ -128,9 +128,10 @@ h5 {
 }
 
 .esoteric-divider img {
-  max-width: 280px;
+  width: 90%;
+  max-width: 700px;
   height: auto;
-  opacity: 0.85;
+  opacity: 0.9;
   transition: opacity 0.3s ease;
 }
 
@@ -143,13 +144,15 @@ h5 {
     padding: 2.5rem 1rem;
   }
   .esoteric-divider img {
-    max-width: 350px;
+    width: 80%;
+    max-width: 800px;
   }
 }
 
 @media (min-width: 1024px) {
   .esoteric-divider img {
-    max-width: 420px;
+    width: 70%;
+    max-width: 900px;
   }
 }
 
